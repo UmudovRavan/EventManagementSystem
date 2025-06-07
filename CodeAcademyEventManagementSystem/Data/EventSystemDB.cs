@@ -1,10 +1,13 @@
 ﻿using CodeAcademyEventManagementSystem.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace CodeAcademyEventManagementSystem.Data
 {
-    public class EventSystemDB : DbContext
+    public class EventSystemDB : IdentityDbContext<ApplicationUser>
     {
+        public EventSystemDB(DbContextOptions<EventSystemDB> options) : base(options) { }
+
         public DbSet<Person> Persons { get; set; }
         public DbSet<Event> Events { get; set; }
         public DbSet<Invitation> Invitations { get; set; }
@@ -14,9 +17,11 @@ namespace CodeAcademyEventManagementSystem.Data
         public DbSet<Organizer> Organizers { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
-        public EventSystemDB(DbContextOptions<EventSystemDB> options) : base(options) { }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        { 
+            base.OnModelCreating(modelBuilder);
+             
             modelBuilder.Entity<Invitation>()
                 .HasOne(i => i.Participation)
                 .WithOne(p => p.Invitation)

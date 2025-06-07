@@ -1,4 +1,6 @@
 using CodeAcademyEventManagementSystem.Data;
+using CodeAcademyEventManagementSystem.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace CodeAcademyEventManagementSystem
@@ -13,8 +15,17 @@ namespace CodeAcademyEventManagementSystem
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<EventSystemDB>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
 
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequireUppercase = false;
+                options.Password.RequiredLength = 6;
+                options.User.RequireUniqueEmail = true;
+            })
+            .AddEntityFrameworkStores<EventSystemDB>()
+            .AddDefaultTokenProviders();
 
             var app = builder.Build();
 
@@ -22,7 +33,6 @@ namespace CodeAcademyEventManagementSystem
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
@@ -31,7 +41,12 @@ namespace CodeAcademyEventManagementSystem
 
             app.UseRouting();
 
+            app.UseAuthentication(); 
             app.UseAuthorization();
+
+            app.MapControllerRoute(
+                  name: "areas",
+                  pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
             app.MapControllerRoute(
                 name: "default",
