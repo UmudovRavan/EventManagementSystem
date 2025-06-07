@@ -1,5 +1,8 @@
 using CodeAcademyEventManagementSystem.Data;
 using CodeAcademyEventManagementSystem.Entities;
+using CodeAcademyEventManagementSystem.Extentions;
+using CodeAcademyEventManagementSystem.Repository.Implementation;
+using CodeAcademyEventManagementSystem.Repository.Interface;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -26,6 +29,13 @@ namespace CodeAcademyEventManagementSystem
             })
             .AddEntityFrameworkStores<EventSystemDB>()
             .AddDefaultTokenProviders();
+
+            builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+           // builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericService<,>));
+
+            builder.Services.AddCustomRepositories();
+            //builder.Services.AddCustomServices();
+
 
             var app = builder.Build();
 
