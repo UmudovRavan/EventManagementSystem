@@ -10,4 +10,5 @@
         public ICollection<Invitation> Invitations { get; set; }
         public ICollection<Feedback> Feedbacks { get; set; }
     }
+
 }

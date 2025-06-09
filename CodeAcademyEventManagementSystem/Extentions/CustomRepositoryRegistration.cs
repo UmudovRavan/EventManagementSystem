@@ -14,6 +14,8 @@ namespace CodeAcademyEventManagementSystem.Extentions
             services.AddScoped<IFeedbackRepository, FeedbackRepository>();
             services.AddScoped<IInvitationRepository, InvitationRepository>();
             services.AddScoped<INotificationRepository, NotificationRepository>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
+            services.AddScoped<IParticipationRepository, ParticipationRepository>();
         }
     }
 }

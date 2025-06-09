@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gFU9uHTquk0=",
+  "dgSpecHash": "XGbZHCRMDcg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ravan\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Ravan\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Ravan\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\Ravan\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

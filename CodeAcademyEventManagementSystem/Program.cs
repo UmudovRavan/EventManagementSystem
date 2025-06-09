@@ -1,8 +1,11 @@
 using CodeAcademyEventManagementSystem.Data;
 using CodeAcademyEventManagementSystem.Entities;
 using CodeAcademyEventManagementSystem.Extentions;
+using CodeAcademyEventManagementSystem.Profile;
 using CodeAcademyEventManagementSystem.Repository.Implementation;
 using CodeAcademyEventManagementSystem.Repository.Interface;
+using CodeAcademyEventManagementSystem.Service.Implementation;
+using CodeAcademyEventManagementSystem.Service.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -31,16 +34,16 @@ namespace CodeAcademyEventManagementSystem
             .AddDefaultTokenProviders();
 
             builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-           // builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericService<,>));
+            builder.Services.AddScoped(typeof(IGenericService<,>), typeof(GenericService<,>));
 
             builder.Services.AddCustomRepositories();
-            //builder.Services.AddCustomServices();
-
+            builder.Services.AddCustomServices();
+            builder.Services.AddAutoMapper(typeof(CustomProfile).Assembly);
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
+            if (!app.Environment.IsDevelopment())   
             {
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
