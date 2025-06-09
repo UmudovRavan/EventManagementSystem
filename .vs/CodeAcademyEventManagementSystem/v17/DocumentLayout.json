@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\views\\account\\signin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\models\\signinvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\models\\signinvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\models\\signupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\models\\signupvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\entities\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\entities\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\extentions\\customrepositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\extentions\\customrepositoryregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\profile\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\profile\\customprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\extentions\\customserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -299,14 +331,6 @@
       "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\entities\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\entities\\applicationuser .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -335,10 +359,6 @@
       "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|c:\\users\\ravan\\desktop\\mvc c#\\codeacademyeventmanagementsystem\\codeacademyeventmanagementsystem\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{71A84ECA-C55C-4A04-8BCE-5ECB6B478735}|CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem.csproj|solutionrelative:codeacademyeventmanagementsystem\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -362,7 +382,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -374,44 +394,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventService.cs",
-              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
-              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
-              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
-              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "SignInVM.cs",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignInVM.cs",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignInVM.cs",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignInVM.cs",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignInVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T13:34:15.75Z"
+              "WhenOpened": "2025-06-09T20:45:33.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignIn.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignIn.cshtml",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignIn.cshtml",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignIn.cshtml",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignIn.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:33:53.054Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomRepositoryRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
-              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
-              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
-              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T19:30:15.686Z",
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignUp.cshtml",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Account\\SignUp.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T20:47:08.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAFAAAAAAAAAA==",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowFgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T13:55:10.667Z"
+              "WhenOpened": "2025-06-09T20:00:08.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "CustomServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Extentions\\CustomServiceRegistration.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Extentions\\CustomServiceRegistration.cs",
@@ -423,7 +458,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAABcHAAAAAAAAAAAIwDkHAAClAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T13:20:02.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignUpVM.cs",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignUpVM.cs",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignUpVM.cs",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignUpVM.cs",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Models\\SignUpVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T20:45:40.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T13:55:10.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Program.cs",
@@ -431,12 +505,59 @@
               "RelativeToolTip": "CodeAcademyEventManagementSystem\\Program.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAUwCoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T20:42:37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T20:42:37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-07T13:52:40.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CustomRepositoryRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Extentions\\CustomRepositoryRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T19:30:15.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationUser .cs",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T11:11:52.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
+              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
+              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
+              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Service\\Implementation\\EventService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T13:34:15.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CustomProfile.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Profile\\CustomProfile.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Profile\\CustomProfile.cs",
@@ -448,7 +569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "OrganizerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\OrganizerRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\OrganizerRepository.cs",
@@ -460,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "IOrganizerRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IOrganizerRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IOrganizerRepository.cs",
@@ -472,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "IEventTypeService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IEventTypeService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IEventTypeService.cs",
@@ -484,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "EventTypeService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\EventTypeService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\EventTypeService.cs",
@@ -496,7 +617,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "FeedbackService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\FeedbackService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\FeedbackService.cs",
@@ -508,7 +629,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "EventCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Event\\EventCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Event\\EventCreateVM.cs",
@@ -520,7 +641,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "IOrganizerService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IOrganizerService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IOrganizerService.cs",
@@ -532,7 +653,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "OrganizerService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\OrganizerService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\OrganizerService.cs",
@@ -544,7 +665,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "LocationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\LocationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\LocationService.cs",
@@ -556,7 +677,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "ILocationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\ILocationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\ILocationService.cs",
@@ -568,7 +689,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "IEventTypeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IEventTypeRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IEventTypeRepository.cs",
@@ -580,7 +701,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "EventTypeRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\EventTypeRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\EventTypeRepository.cs",
@@ -592,7 +713,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "PersonService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\PersonService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\PersonService.cs",
@@ -604,7 +725,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "IPersonService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IPersonService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IPersonService.cs",
@@ -616,7 +737,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "ILocationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\ILocationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\ILocationRepository.cs",
@@ -628,7 +749,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "LocationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\LocationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\LocationRepository.cs",
@@ -640,7 +761,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "NotificationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\NotificationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\NotificationService.cs",
@@ -652,7 +773,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "IFeedbackService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IFeedbackService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IFeedbackService.cs",
@@ -664,7 +785,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "INotificationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\INotificationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\INotificationService.cs",
@@ -676,7 +797,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "ParticipationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\ParticipationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\ParticipationService.cs",
@@ -688,7 +809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "IParticipationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IParticipationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IParticipationService.cs",
@@ -700,7 +821,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "IGenericService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IGenericService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IGenericService.cs",
@@ -712,7 +833,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "InvitationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\InvitationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\InvitationService.cs",
@@ -724,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "IInvitationService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IInvitationService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IInvitationService.cs",
@@ -736,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "IFeedbackRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IFeedbackRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IFeedbackRepository.cs",
@@ -748,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IGenericRepository.cs",
@@ -760,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "IInvitationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IInvitationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IInvitationRepository.cs",
@@ -772,7 +893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "INotificationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\INotificationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\INotificationRepository.cs",
@@ -784,7 +905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "IParticipationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IParticipationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IParticipationRepository.cs",
@@ -796,7 +917,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "IEventRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IEventRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IEventRepository.cs",
@@ -808,7 +929,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\EventRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\EventRepository.cs",
@@ -820,7 +941,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "IEventService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Interfaces\\IEventService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Interfaces\\IEventService.cs",
@@ -832,7 +953,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "ParticipationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\ParticipationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\ParticipationRepository.cs",
@@ -844,7 +965,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "IPersonRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Interface\\IPersonRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Interface\\IPersonRepository.cs",
@@ -856,7 +977,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "PersonRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\PersonRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\PersonRepository.cs",
@@ -868,7 +989,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "PersonEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Person\\PersonEditVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Person\\PersonEditVM.cs",
@@ -880,7 +1001,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "GenericService.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Service\\Implementation\\GenericService.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Service\\Implementation\\GenericService.cs",
@@ -892,7 +1013,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "PersonCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Person\\PersonCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Person\\PersonCreateVM.cs",
@@ -904,7 +1025,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "PersonVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Person\\PersonVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Person\\PersonVM.cs",
@@ -916,7 +1037,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 53,
               "Title": "ParticipationVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Participation\\ParticipationVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Participation\\ParticipationVM.cs",
@@ -928,7 +1049,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 54,
               "Title": "ParticipationCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Participation\\ParticipationCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Participation\\ParticipationCreateVM.cs",
@@ -940,7 +1061,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 55,
               "Title": "OrganizerEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Organizer\\OrganizerEditVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Organizer\\OrganizerEditVM.cs",
@@ -952,7 +1073,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 56,
               "Title": "OrganizerCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Organizer\\OrganizerCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Organizer\\OrganizerCreateVM.cs",
@@ -964,7 +1085,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 57,
               "Title": "OrganizerVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Organizer\\OrganizerVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Organizer\\OrganizerVM.cs",
@@ -976,7 +1097,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 58,
               "Title": "NotificationCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Notification\\NotificationCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Notification\\NotificationCreateVM.cs",
@@ -988,7 +1109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 59,
               "Title": "NotificationVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Notification\\NotificationVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Notification\\NotificationVM.cs",
@@ -1000,7 +1121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 60,
               "Title": "LocationEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Location\\LocationEditVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Location\\LocationEditVM.cs",
@@ -1012,7 +1133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 61,
               "Title": "LocationCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Location\\LocationCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Location\\LocationCreateVM.cs",
@@ -1024,7 +1145,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 62,
               "Title": "LocationVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Location\\LocationVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Location\\LocationVM.cs",
@@ -1036,7 +1157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 63,
               "Title": "InvitationCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Invitation\\InvitationCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Invitation\\InvitationCreateVM.cs",
@@ -1048,7 +1169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 64,
               "Title": "InvitationVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Invitation\\InvitationVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Invitation\\InvitationVM.cs",
@@ -1060,7 +1181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 65,
               "Title": "FeedbackCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Feedback\\FeedbackCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Feedback\\FeedbackCreateVM.cs",
@@ -1072,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 66,
               "Title": "FeedbackVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Feedback\\FeedbackVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Feedback\\FeedbackVM.cs",
@@ -1084,7 +1205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 67,
               "Title": "EventTypeEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\EventType\\EventTypeEditVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\EventType\\EventTypeEditVM.cs",
@@ -1096,7 +1217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 68,
               "Title": "EventTypeCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\EventType\\EventTypeCreateVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\EventType\\EventTypeCreateVM.cs",
@@ -1108,7 +1229,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 69,
               "Title": "EventTypeVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\EventType\\EventTypeVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\EventType\\EventTypeVM.cs",
@@ -1120,7 +1241,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 70,
               "Title": "EventEditVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Event\\EventEditVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Event\\EventEditVM.cs",
@@ -1132,7 +1253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 71,
               "Title": "EventVM.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ViewModels\\Event\\EventVM.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ViewModels\\Event\\EventVM.cs",
@@ -1144,7 +1265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 77,
               "Title": "Invitation.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Invitation.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Invitation.cs",
@@ -1156,7 +1277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 80,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Event.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Event.cs",
@@ -1168,7 +1289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 79,
               "Title": "EventType.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\EventType.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\EventType.cs",
@@ -1180,7 +1301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 78,
               "Title": "Feedback.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Feedback.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Feedback.cs",
@@ -1192,7 +1313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 76,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Location.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Location.cs",
@@ -1204,7 +1325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 75,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Notification.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Notification.cs",
@@ -1216,7 +1337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 74,
               "Title": "Organizer.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Organizer.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Organizer.cs",
@@ -1228,7 +1349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 73,
               "Title": "Participation.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Participation.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Participation.cs",
@@ -1240,7 +1361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 72,
               "Title": "Person.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\Person.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\Person.cs",
@@ -1252,7 +1373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 81,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\BaseEntity.cs",
@@ -1264,31 +1385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "ApplicationUser .cs",
-              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
-              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
-              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
-              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Entities\\ApplicationUser .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T11:11:52.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-07T13:20:02.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 82,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -1300,7 +1397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 83,
               "Title": "NotificationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\NotificationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\NotificationRepository.cs",
@@ -1312,7 +1409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 84,
               "Title": "FeedbackRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\FeedbackRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\FeedbackRepository.cs",
@@ -1324,7 +1421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 85,
               "Title": "InvitationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\InvitationRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\InvitationRepository.cs",
@@ -1336,7 +1433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 86,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Repository\\Implementation\\GenericRepository.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Repository\\Implementation\\GenericRepository.cs",
@@ -1348,7 +1445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 88,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -1360,19 +1457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CodeAcademyEventManagementSystem\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-07T13:52:40.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 87,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -1384,7 +1469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 89,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\ScaffoldingReadMe.txt",
@@ -1396,7 +1481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 91,
               "Title": "20250603204755_addedEntities.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Migrations\\20250603204755_addedEntities.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Migrations\\20250603204755_addedEntities.cs",
@@ -1408,7 +1493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 92,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\appsettings.Development.json",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\appsettings.Development.json",
@@ -1420,7 +1505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 90,
               "Title": "EventSystemDB.cs",
               "DocumentMoniker": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\Data\\EventSystemDB.cs",
               "RelativeDocumentMoniker": "CodeAcademyEventManagementSystem\\Data\\EventSystemDB.cs",

@@ -41,14 +41,15 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("LastLoginIpAdr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -67,13 +68,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Role")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Surname")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
@@ -117,6 +112,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<int>("EventTypeId")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<int>("LocationId")
                         .HasColumnType("int");
 
@@ -145,9 +143,10 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         {
                             Id = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Date = new DateTime(2025, 6, 17, 15, 21, 42, 202, DateTimeKind.Local).AddTicks(7163),
+                            Date = new DateTime(2025, 6, 20, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5665),
                             Description = "Dərin C# təlimi",
                             EventTypeId = 3,
+                            IsDeleted = false,
                             LocationId = 1,
                             OrganizerId = 1,
                             Title = "C# Bootcamp",
@@ -166,6 +165,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -182,6 +184,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         {
                             Id = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "Konfrans",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -189,6 +192,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         {
                             Id = 2,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "Seminar",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -196,6 +200,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         {
                             Id = 3,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "Bootcamp",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -203,6 +208,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         {
                             Id = 4,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "Masterclass",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -225,6 +231,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
 
                     b.Property<int>("EventId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
@@ -253,9 +262,10 @@ namespace CodeAcademyEventManagementSystem.Migrations
                             Comment = "Əla tədbir idi!",
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EventId = 1,
+                            IsDeleted = false,
                             PersonId = 1,
                             Rating = 5,
-                            SubmittedAt = new DateTime(2025, 6, 7, 15, 21, 42, 202, DateTimeKind.Local).AddTicks(7233),
+                            SubmittedAt = new DateTime(2025, 6, 10, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5737),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
@@ -273,6 +283,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
 
                     b.Property<int>("EventId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<int>("PersonId")
                         .HasColumnType("int");
@@ -301,8 +314,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                             Id = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EventId = 1,
+                            IsDeleted = false,
                             PersonId = 1,
-                            SentAt = new DateTime(2025, 6, 7, 15, 21, 42, 202, DateTimeKind.Local).AddTicks(7192),
+                            SentAt = new DateTime(2025, 6, 10, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5694),
                             Status = "Accepted",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -326,6 +340,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -344,6 +361,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                             Address = "Nərimanov, Bakı",
                             Capacity = 200,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false,
                             Name = "Bakı Konfrans Mərkəzi",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -362,6 +380,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
 
                     b.Property<int>("EventId")
                         .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Message")
                         .IsRequired()
@@ -385,8 +406,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                             Id = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             EventId = 1,
+                            IsDeleted = false,
                             Message = "Bootcamp sabah saat 10:00-da başlayır",
-                            SentAt = new DateTime(2025, 6, 16, 15, 21, 42, 202, DateTimeKind.Local).AddTicks(7218),
+                            SentAt = new DateTime(2025, 6, 19, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5723),
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
@@ -410,6 +432,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime2");
 
@@ -424,6 +449,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "info@code.edu.az",
                             FullName = "Code Academy",
+                            IsDeleted = false,
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
                 });
@@ -445,6 +471,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<int>("InvitationId")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("SeatNumber")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -463,9 +492,10 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         new
                         {
                             Id = 1,
-                            CheckInTime = new DateTime(2025, 6, 18, 0, 21, 42, 202, DateTimeKind.Local).AddTicks(7206),
+                            CheckInTime = new DateTime(2025, 6, 20, 9, 20, 16, 241, DateTimeKind.Local).AddTicks(5709),
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InvitationId = 1,
+                            IsDeleted = false,
                             SeatNumber = "A12",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -485,6 +515,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -515,6 +548,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                             Id = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "ali@mail.com",
+                            IsDeleted = false,
                             Name = "Əli",
                             Phone = "0511111111",
                             Role = "Tələbə",
@@ -526,6 +560,7 @@ namespace CodeAcademyEventManagementSystem.Migrations
                             Id = 2,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "nigar@mail.com",
+                            IsDeleted = false,
                             Name = "Nigar",
                             Phone = "0522222222",
                             Role = "Müəllim",
