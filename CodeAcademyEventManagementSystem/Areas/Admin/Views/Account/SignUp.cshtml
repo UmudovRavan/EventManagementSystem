@@ -1,6 +1,6 @@
 ﻿@model CodeAcademyEventManagementSystem.Areas.Admin.Models.SignUpVM
 @{
-    Layout = null;
+    Layout = null; // Əgər Admin sahəsindəsinizsə və xüsusi layout istifadə edirsinizsə
 }
 <!doctype html>
 <html lang="en">
@@ -26,7 +26,6 @@
     <a asp-area="" asp-controller="Home" asp-action="Index" class="btn btn-outline-primary back-button">
         Back to Website
     </a>
-    <!-- Body Wrapper -->
     <div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
          data-sidebar-position="fixed" data-header-position="fixed">
         <div class="position-relative overflow-hidden text-bg-light min-vh-100 d-flex align-items-center justify-content-center">
@@ -40,7 +39,6 @@
                                 </a>
                                 <p class="text-center">Your Social Campaigns</p>
 
-                                <!-- FORM BAŞLAYIR -->
                                 <form asp-action="SignUp" method="post">
                                     <div asp-validation-summary="All" class="text-danger"></div>
 
@@ -62,10 +60,16 @@
                                         <span asp-validation-for="Password" class="text-danger"></span>
                                     </div>
 
+
+                                    <div class="mb-4">
+                                        <label asp-for="DesiredPersonRole" class="control-label"></label>
+                                        <select asp-for="DesiredPersonRole" class="form-control" asp-items="Model.AvailablePersonRoles">
+                                            <option value="">-- Rol Seçin --</option>
+                                        </select>
+                                        <span asp-validation-for="DesiredPersonRole" class="text-danger"></span>
+                                    </div>
                                     <button type="submit" class="btn btn-primary w-100 py-8 fs-4 mb-4 rounded-2">Sign Up</button>
                                 </form>
-                                <!-- FORM BİTİR -->
-
                                 <div class="d-flex align-items-center justify-content-center">
                                     <p class="fs-4 mb-0 fw-bold">Already have an account?</p>
                                     <a asp-area="Admin" asp-controller="Account" asp-action="SignIn" class="link-danger ms-2"><u>Sign In</u></a>
@@ -79,12 +83,10 @@
         </div>
     </div>
 
-    <!-- JS və Validation Scriptləri -->
     <script src="~/assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="~/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
 
-    <!-- Validation üçün əlavə -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
 </body>

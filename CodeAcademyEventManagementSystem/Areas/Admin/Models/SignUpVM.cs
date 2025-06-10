@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System.ComponentModel.DataAnnotations;
 
 namespace CodeAcademyEventManagementSystem.Areas.Admin.Models
 {
@@ -14,5 +15,10 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Models
         [Required(ErrorMessage = "Password is required")]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        [Required(ErrorMessage = "Müraciət etdiyiniz rolu seçin.")]
+        [Display(Name = "Rol")]
+        public string DesiredPersonRole { get; set; }
+        public IEnumerable<SelectListItem>? AvailablePersonRoles { get; set; }
+
     }
 }

@@ -33,7 +33,8 @@ namespace CodeAcademyEventManagementSystem.Data
                     UserName = adminUserName,
                     Email = adminEmail,
                     EmailConfirmed = true,
-                    LastLoginIpAdr = "127.0.0.1"
+                    IsApproved = true,
+                    LastLoginIpAdr = "192.168.137.1"
                 };
                 var result = await userManager.CreateAsync(adminUser, adminPassword);
                 if (result.Succeeded)

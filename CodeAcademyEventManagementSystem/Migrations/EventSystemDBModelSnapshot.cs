@@ -41,6 +41,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("IsApproved")
+                        .HasColumnType("bit");
+
                     b.Property<string>("LastLoginIpAdr")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
