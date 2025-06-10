@@ -137,21 +137,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasIndex("OrganizerId");
 
                     b.ToTable("Events");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Date = new DateTime(2025, 6, 20, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5665),
-                            Description = "Dərin C# təlimi",
-                            EventTypeId = 3,
-                            IsDeleted = false,
-                            LocationId = 1,
-                            OrganizerId = 1,
-                            Title = "C# Bootcamp",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.EventType", b =>
@@ -178,40 +163,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("EventTypes");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            Name = "Konfrans",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            Name = "Seminar",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            Name = "Bootcamp",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 4,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            Name = "Masterclass",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.Feedback", b =>
@@ -254,20 +205,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasIndex("PersonId");
 
                     b.ToTable("Feedbacks");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Comment = "Əla tədbir idi!",
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            EventId = 1,
-                            IsDeleted = false,
-                            PersonId = 1,
-                            Rating = 5,
-                            SubmittedAt = new DateTime(2025, 6, 10, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5737),
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.Invitation", b =>
@@ -307,19 +244,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasIndex("PersonId");
 
                     b.ToTable("Invitations");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            EventId = 1,
-                            IsDeleted = false,
-                            PersonId = 1,
-                            SentAt = new DateTime(2025, 6, 10, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5694),
-                            Status = "Accepted",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.Location", b =>
@@ -353,18 +277,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Locations");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Address = "Nərimanov, Bakı",
-                            Capacity = 200,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            IsDeleted = false,
-                            Name = "Bakı Konfrans Mərkəzi",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.Notification", b =>
@@ -399,18 +311,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasIndex("EventId");
 
                     b.ToTable("Notifications");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            EventId = 1,
-                            IsDeleted = false,
-                            Message = "Bootcamp sabah saat 10:00-da başlayır",
-                            SentAt = new DateTime(2025, 6, 19, 0, 20, 16, 241, DateTimeKind.Local).AddTicks(5723),
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.Organizer", b =>
@@ -441,17 +341,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Organizers");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "info@code.edu.az",
-                            FullName = "Code Academy",
-                            IsDeleted = false,
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.Participation", b =>
@@ -487,18 +376,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                         .IsUnique();
 
                     b.ToTable("Participations");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CheckInTime = new DateTime(2025, 6, 20, 9, 20, 16, 241, DateTimeKind.Local).AddTicks(5709),
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InvitationId = 1,
-                            IsDeleted = false,
-                            SeatNumber = "A12",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("CodeAcademyEventManagementSystem.Entities.Person", b =>
@@ -541,32 +418,6 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Persons");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "ali@mail.com",
-                            IsDeleted = false,
-                            Name = "Əli",
-                            Phone = "0511111111",
-                            Role = "Tələbə",
-                            Surname = "Əliyev",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "nigar@mail.com",
-                            IsDeleted = false,
-                            Name = "Nigar",
-                            Phone = "0522222222",
-                            Role = "Müəllim",
-                            Surname = "Həsənova",
-                            UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
