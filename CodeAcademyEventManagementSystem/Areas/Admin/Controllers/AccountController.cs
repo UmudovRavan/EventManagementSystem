@@ -2,6 +2,7 @@
 using CodeAcademyEventManagementSystem.Areas.Admin.Models;
 using CodeAcademyEventManagementSystem.Data;
 using CodeAcademyEventManagementSystem.Entities;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -132,7 +133,7 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
                 _dbContext.Persons.Add(person);
                 await _dbContext.SaveChangesAsync();
 
-                TempData["SuccessMessage"] = "Qeydiyyatınız uğurla tamamlandı. Hesabınız admin tərəfindən təsdiqləndikdən sonra daxil ola bilərsiniz.";
+                TempData["SuccessMessage"] = "Qeydiyyatınız uğurla ta   mamlandı. Hesabınız admin tərəfindən təsdiqləndikdən sonra daxil ola bilərsiniz.";
                 return RedirectToAction("SignIn", "Account", new { area = "Admin" });
             }
             else
@@ -162,6 +163,13 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
         {
             await _signInManager.SignOutAsync();
             return RedirectToAction("SignIn", "Account", new { area = "Admin" });
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> LogoutMain()
+        {
+            await HttpContext.SignOutAsync(); 
+            return RedirectToAction("Index", "Home", new { area = "" }); 
         }
     }
 }

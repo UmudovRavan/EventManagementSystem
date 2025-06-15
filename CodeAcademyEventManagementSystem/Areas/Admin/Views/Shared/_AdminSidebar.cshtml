@@ -1,0 +1,37 @@
+﻿<nav class="sidebar" id="sidebar">
+    <ul class="sidebar-menu">
+        <li>
+            <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="active">
+                <i class="fas fa-tachometer-alt"></i>Dashboard
+            </a>
+
+        </li>
+        <li>
+            <a asp-area ="Admin" asp-controller="UserApproval" asp-action="Index" aria-expanded="false">
+                <i class="fas fa-clock"></i>Pending User Registrations
+            </a>
+        </li>
+        <li>
+            <a asp-area="Admin" asp-controller="Event" asp-action="Index">
+                <i class="fas fa-calendar-check"></i> Events
+            </a>
+        </li>
+
+        <li>
+            <a asp-area="Admin" asp-controller="EventType" asp-action="Index">
+                <i class="fas fa-tags"></i> Event Types
+            </a>
+        </li>
+
+        <li>
+            <a asp-area="Admin" asp-controller="Location" asp-action="Index">
+                <i class="fas fa-map-marker-alt"></i>Locations
+            </a>
+        </li>
+        <li>
+            <a asp-area="Admin" asp-controller="Organizer" asp-action="Index">
+                <i class="fas fa-users"></i>Organizers
+            </a>
+        </li>
+    </ul>
+</nav>

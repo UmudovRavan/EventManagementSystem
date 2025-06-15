@@ -1,0 +1,27 @@
+﻿@model CodeAcademyEventManagementSystem.ViewModels.EventType.EventTypeCreateVM
+@{
+    ViewData["Title"] = "Yeni Tədbir növü Yarat";
+    Layout = "_AdminLayout";
+}
+
+<div >
+    <h2>@ViewData["Title"]</h2>
+
+    <form asp-area="Admin" asp-controller="EventType" asp-action="Create" method="post">
+        @Html.AntiForgeryToken()
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-success">Yarat</button>
+        <a asp-area="Admin" asp-controller="EventType" asp-action="Index" class="btn btn-secondary">Geri</a>
+            
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

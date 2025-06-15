@@ -18,10 +18,24 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             _mapper = mapper;
         }
 
+        public async Task CreateAsync(OrganizerCreateVM model)
+        {
+            var organizerEntity = _mapper.Map<Organizer>(model);
+            await _organizerRepository.AddAsync(organizerEntity);
+            await _organizerRepository.SaveChangesAsync();
+        }
+
         public async Task<OrganizerVM> GetOrganizerByEmailAsync(string email)
         {
             var organizerEntity = await _organizerRepository.GetOrganizerByEmailAsync(email);
             return _mapper.Map<OrganizerVM>(organizerEntity);
+        }
+
+        public async Task Update(OrganizerEditVM model)
+        {
+            var organizerEntity = _mapper.Map<Organizer>(model);
+            await _organizerRepository.UpdateAsync(organizerEntity);
+            await _organizerRepository.SaveChangesAsync();
         }
     }
 }

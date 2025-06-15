@@ -23,5 +23,11 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             var eventTypeEntity = await _eventTypeRepository.GetEventTypeByNameAsync(name);
             return _mapper.Map<EventTypeVM>(eventTypeEntity);
         }
+
+        public async Task Update(EventType eventTypeEntity)
+        {
+            await _eventTypeRepository.UpdateAsync(eventTypeEntity);
+            await _eventTypeRepository.SaveChangesAsync();
+        }
     }
 }

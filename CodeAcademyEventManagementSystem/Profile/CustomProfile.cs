@@ -21,6 +21,8 @@ namespace CodeAcademyEventManagementSystem.Profile
             CreateMap<EventEditVM, Event>().ReverseMap();
             CreateMap<EventTypeVM, EventType>().ReverseMap();
             CreateMap<EventTypeCreateVM, EventType>().ReverseMap();
+            CreateMap<EventTypeCreateVM, EventTypeVM>();
+            CreateMap<EventTypeVM, EventTypeEditVM>();
             CreateMap<EventTypeEditVM, EventType>().ReverseMap();
             CreateMap<FeedbackVM, Feedback>().ReverseMap();
             CreateMap<FeedbackCreateVM, Feedback>().ReverseMap();

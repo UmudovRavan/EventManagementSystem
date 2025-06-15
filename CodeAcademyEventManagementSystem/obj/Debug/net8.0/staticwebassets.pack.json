@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\CodeAcademyEventManagementSystem.5pqp2wgorc.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\js\\app.js",
+      "PackagePath": "staticwebassets\\admin\\js\\app.js"
+    },
+    {
       "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
       "PackagePath": "staticwebassets\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot"
     },
@@ -2381,8 +2389,16 @@
       "PackagePath": "staticwebassets\\assets\\scss\\variables\\_variables.scss"
     },
     {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
@@ -4839,6 +4855,30 @@
     {
       "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\libs\\simplebar\\src\\simplebar.js",
       "PackagePath": "staticwebassets\\libs\\simplebar\\src\\simplebar.js"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn.html",
+      "PackagePath": "staticwebassets\\signIn.html"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\css\\signIn.css",
+      "PackagePath": "staticwebassets\\signIn\\css\\signIn.css"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\js\\signIn.js",
+      "PackagePath": "staticwebassets\\signIn\\js\\signIn.js"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\css\\signUp.css",
+      "PackagePath": "staticwebassets\\signUp\\css\\signUp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\js\\signUp.js",
+      "PackagePath": "staticwebassets\\signUp\\js\\signUp.js"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signup.html",
+      "PackagePath": "staticwebassets\\signup.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CodeAcademyEventManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

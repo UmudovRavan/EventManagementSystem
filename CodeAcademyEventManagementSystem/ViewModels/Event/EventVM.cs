@@ -15,5 +15,13 @@
         public string EventTypeName { get; set; }
 
         public string OrganizerName { get; set; }
+        public int LocationId { get; internal set; }
+        public int EventTypeId { get; internal set; }
+        public int OrganizerId { get; internal set; }
+
+        public string Status { get; set; }
+        public string StatusColor { get; set; }
+        public double Rating { get; set; }
+
     }
 }

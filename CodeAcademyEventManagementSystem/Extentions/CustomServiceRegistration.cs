@@ -16,6 +16,7 @@ namespace CodeAcademyEventManagementSystem.Extentions
             services.AddScoped<IOrganizerService, OrganizerService>();
             services.AddScoped<IParticipationService, ParticipationService>();
             services.AddScoped<IPersonService, PersonService>();
+            services.AddScoped<IDashboardService, DashboardService>();
         }
     }
 }

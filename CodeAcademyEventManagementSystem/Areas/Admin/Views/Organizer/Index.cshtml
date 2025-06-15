@@ -1,0 +1,49 @@
+﻿@model IEnumerable<CodeAcademyEventManagementSystem.ViewModels.Organizer.OrganizerVM>
+
+@{
+    ViewData["Title"] = "Organizerlər";
+    Layout = "_AdminLayout";
+}
+
+<section id="pending-registrations" class="content-section active">
+
+<div class="container py-4">
+    <h2 class="mb-4">Organizerlər</h2>
+
+    <p>
+        <a asp-action="Create" class="btn btn-primary">Yeni Organizer əlavə et</a>
+    </p>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Tam Ad</th>
+                <th>E-poçt</th>
+                <th>Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var organizer in Model)
+            {
+                <tr>
+                    <td>@organizer.FullName</td>
+                    <td>@organizer.Email</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@organizer.Id" class="btn btn-sm btn-warning">Redaktə</a>
+                        <form asp-action="Delete" asp-route-id="@organizer.Id" method="post" style="display:inline;"
+                              onsubmit="return confirm('Bu məkanı silmək istədiyinizə əminsiniz?');">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-danger">
+                                <i class="fas fa-trash-alt"></i> Sil
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+</section>
+
+
+

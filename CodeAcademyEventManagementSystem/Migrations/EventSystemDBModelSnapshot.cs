@@ -115,6 +115,9 @@ namespace CodeAcademyEventManagementSystem.Migrations
                     b.Property<int>("EventTypeId")
                         .HasColumnType("int");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 

@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CodeAcademyEventManagementSystem.ViewModels.EventType.EventTypeVM>
+@{
+    ViewData["Title"] = "Tədbir növləri";
+    Layout = "_AdminLayout";  
+}
+
+<section id="pending-registrations" class="content-section active">
+<div >
+    <h2>@ViewData["Title"]</h2>
+
+    <a asp-action="Create" class="btn btn-primary mb-3">Yeni Tədbir Növü</a>
+
+    <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Ad</th>
+                <th>Əməliyyatlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Redaktə</a>
+
+                        <button type="button"
+                                class="btn btn-danger btn-sm"
+                                onclick="confirmDelete(@item.Id, '@item.Name')">
+                            Sil
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+</section>
+
+
+@section Scripts {
+    <script>
+        function confirmDelete(id, name) {
+            if (confirm(`"${name}" adlı tədbir növü silinsin?`)) {
+                // Silmə əməliyyatı üçün forma yaradıb göndəririk (POST)
+                var form = document.createElement('form');
+                form.method = 'post';
+                form.action = `/Admin/EventTypes/Delete/${id}`;
+
+              
+
+                document.body.appendChild(form);
+                form.submit();
+            }
+        }
+    </script>
+}

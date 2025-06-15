@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7fhaG3EWnYeUlCAXFDy5/9KIQPdKR485q+z2gFj28Mc=",
+  "Hash": "rFblBB/y3WF1R0n0INzEHev6BuETiiVFDYEhPrXU4MU=",
   "Source": "CodeAcademyEventManagementSystem",
   "BasePath": "_content/CodeAcademyEventManagementSystem",
   "Mode": "Default",
@@ -57,6 +57,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CodeAcademyEventManagementSystem.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\css\\style.css",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "admin/css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n9qr4hxqqi",
+      "Integrity": "RUoreK4gUb+CFNsc3ULepgXwb3UXIRBp4t41jNPOT/s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\js\\app.js",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "admin/js/app#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "td7n3blh1r",
+      "Integrity": "IQQe53cfCmpu7lvCqSOshCKafeTXmBIKXG3Ci35kc7w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\admin\\js\\app.js"
     },
     {
       "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.eot",
@@ -12533,6 +12575,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\scss\\variables\\_variables.scss"
     },
     {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\css\\site.css",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dxhxjzx9ol",
+      "Integrity": "/3e/5TG7Bjifkt9FM6KZnm++8jTRjdBIkjmfXELPHPI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
       "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\favicon.ico",
       "SourceId": "CodeAcademyEventManagementSystem",
       "SourceType": "Discovered",
@@ -12552,6 +12615,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\js\\site.js",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w8maqz04sc",
+      "Integrity": "IFXbVbOo/PBcOXxoA0jlqOGtJ8NjVZFBkI8DA8lzOaw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -25446,9 +25530,299 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\libs\\simplebar\\src\\simplebar.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn.html",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "signIn#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wsyjuwsftp",
+      "Integrity": "EOsP6oa7zRyykY/1JfMtxHgXFeGvVA4eOiX0VTcNT2U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signIn.html"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\css\\signIn.css",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "signIn/css/signIn#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ve8atfgv5l",
+      "Integrity": "F+LBkojqAfhCKxwX18Y1S8E3kHDr4lgObe0GP4I0l9g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signIn\\css\\signIn.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\js\\signIn.js",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "signIn/js/signIn#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x8ffhhel3u",
+      "Integrity": "8a/MKFOLZ7IZDN2yeTm44WM9dHOmhTQeZv9nKyFCTsw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signIn\\js\\signIn.js"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signup.html",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "signup#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ygdhophakl",
+      "Integrity": "jvVLfOJFd1yc1CR60oB10NrfYDed8Z8jrLH1GkBhYBg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signup.html"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\css\\signUp.css",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "signUp/css/signUp#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "axwdjlxii0",
+      "Integrity": "7t7DWvk3hkJprUHqV1TkGMgF5+r18HSV4G8BsOd0W3A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signUp\\css\\signUp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\js\\signUp.js",
+      "SourceId": "CodeAcademyEventManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\",
+      "BasePath": "_content/CodeAcademyEventManagementSystem",
+      "RelativePath": "signUp/js/signUp#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gtoa3o71qb",
+      "Integrity": "JI+BgD9kfWh2o3xwHZv9TunO40AFFLepq43jbHwUce8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\signUp\\js\\signUp.js"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "admin/css/style.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUoreK4gUb+CFNsc3ULepgXwb3UXIRBp4t41jNPOT/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 11:54:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RUoreK4gUb+CFNsc3ULepgXwb3UXIRBp4t41jNPOT/s="
+        }
+      ]
+    },
+    {
+      "Route": "admin/css/style.n9qr4hxqqi.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RUoreK4gUb+CFNsc3ULepgXwb3UXIRBp4t41jNPOT/s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 11:54:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n9qr4hxqqi"
+        },
+        {
+          "Name": "label",
+          "Value": "admin/css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RUoreK4gUb+CFNsc3ULepgXwb3UXIRBp4t41jNPOT/s="
+        }
+      ]
+    },
+    {
+      "Route": "admin/js/app.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IQQe53cfCmpu7lvCqSOshCKafeTXmBIKXG3Ci35kc7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 11:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IQQe53cfCmpu7lvCqSOshCKafeTXmBIKXG3Ci35kc7w="
+        }
+      ]
+    },
+    {
+      "Route": "admin/js/app.td7n3blh1r.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\admin\\js\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3968"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IQQe53cfCmpu7lvCqSOshCKafeTXmBIKXG3Ci35kc7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 11:54:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "td7n3blh1r"
+        },
+        {
+          "Name": "label",
+          "Value": "admin/js/app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IQQe53cfCmpu7lvCqSOshCKafeTXmBIKXG3Ci35kc7w="
+        }
+      ]
+    },
     {
       "Route": "assets/css/icons/tabler-icons/fonts/tabler-icons.44rkqwcj9k.ttf",
       "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\assets\\css\\icons\\tabler-icons\\fonts\\tabler-icons.ttf",
@@ -74180,7 +74554,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 20:37:53 GMT"
+          "Value": "Tue, 10 Jun 2025 22:12:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74225,7 +74599,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 20:37:53 GMT"
+          "Value": "Tue, 10 Jun 2025 22:12:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74270,7 +74644,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 20:37:53 GMT"
+          "Value": "Tue, 10 Jun 2025 22:12:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74307,7 +74681,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 20:37:53 GMT"
+          "Value": "Tue, 10 Jun 2025 22:12:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -74318,6 +74692,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-l+rDC/DQlKTuTnONknF0vzFsXdNOqjcSOEjAoq7lbm4="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/3e/5TG7Bjifkt9FM6KZnm++8jTRjdBIkjmfXELPHPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:21:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/3e/5TG7Bjifkt9FM6KZnm++8jTRjdBIkjmfXELPHPI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.dxhxjzx9ol.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7761"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/3e/5TG7Bjifkt9FM6KZnm++8jTRjdBIkjmfXELPHPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:21:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dxhxjzx9ol"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/3e/5TG7Bjifkt9FM6KZnm++8jTRjdBIkjmfXELPHPI="
         }
       ]
     },
@@ -74400,6 +74856,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IFXbVbOo/PBcOXxoA0jlqOGtJ8NjVZFBkI8DA8lzOaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IFXbVbOo/PBcOXxoA0jlqOGtJ8NjVZFBkI8DA8lzOaw="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.w8maqz04sc.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4309"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IFXbVbOo/PBcOXxoA0jlqOGtJ8NjVZFBkI8DA8lzOaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 12:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w8maqz04sc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IFXbVbOo/PBcOXxoA0jlqOGtJ8NjVZFBkI8DA8lzOaw="
         }
       ]
     },
@@ -124748,6 +125286,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-rSX7Th5a5M/sV/7oR7gM94xr6lgE/bkKHWY8wTATuVM="
+        }
+      ]
+    },
+    {
+      "Route": "signIn.html",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EOsP6oa7zRyykY/1JfMtxHgXFeGvVA4eOiX0VTcNT2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:23:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EOsP6oa7zRyykY/1JfMtxHgXFeGvVA4eOiX0VTcNT2U="
+        }
+      ]
+    },
+    {
+      "Route": "signIn.wsyjuwsftp.html",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EOsP6oa7zRyykY/1JfMtxHgXFeGvVA4eOiX0VTcNT2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:23:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wsyjuwsftp"
+        },
+        {
+          "Name": "label",
+          "Value": "signIn.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EOsP6oa7zRyykY/1JfMtxHgXFeGvVA4eOiX0VTcNT2U="
+        }
+      ]
+    },
+    {
+      "Route": "signIn/css/signIn.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\css\\signIn.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+LBkojqAfhCKxwX18Y1S8E3kHDr4lgObe0GP4I0l9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:23:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+LBkojqAfhCKxwX18Y1S8E3kHDr4lgObe0GP4I0l9g="
+        }
+      ]
+    },
+    {
+      "Route": "signIn/css/signIn.ve8atfgv5l.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\css\\signIn.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8023"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F+LBkojqAfhCKxwX18Y1S8E3kHDr4lgObe0GP4I0l9g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:23:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ve8atfgv5l"
+        },
+        {
+          "Name": "label",
+          "Value": "signIn/css/signIn.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F+LBkojqAfhCKxwX18Y1S8E3kHDr4lgObe0GP4I0l9g="
+        }
+      ]
+    },
+    {
+      "Route": "signIn/js/signIn.x8ffhhel3u.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\js\\signIn.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8a/MKFOLZ7IZDN2yeTm44WM9dHOmhTQeZv9nKyFCTsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:23:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x8ffhhel3u"
+        },
+        {
+          "Name": "label",
+          "Value": "signIn/js/signIn.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8a/MKFOLZ7IZDN2yeTm44WM9dHOmhTQeZv9nKyFCTsw="
+        }
+      ]
+    },
+    {
+      "Route": "signIn/js/signIn.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signIn\\js\\signIn.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8a/MKFOLZ7IZDN2yeTm44WM9dHOmhTQeZv9nKyFCTsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:23:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8a/MKFOLZ7IZDN2yeTm44WM9dHOmhTQeZv9nKyFCTsw="
+        }
+      ]
+    },
+    {
+      "Route": "signup.html",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signup.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jvVLfOJFd1yc1CR60oB10NrfYDed8Z8jrLH1GkBhYBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:40:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jvVLfOJFd1yc1CR60oB10NrfYDed8Z8jrLH1GkBhYBg="
+        }
+      ]
+    },
+    {
+      "Route": "signup.ygdhophakl.html",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signup.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jvVLfOJFd1yc1CR60oB10NrfYDed8Z8jrLH1GkBhYBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:40:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ygdhophakl"
+        },
+        {
+          "Name": "label",
+          "Value": "signup.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jvVLfOJFd1yc1CR60oB10NrfYDed8Z8jrLH1GkBhYBg="
+        }
+      ]
+    },
+    {
+      "Route": "signUp/css/signUp.axwdjlxii0.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\css\\signUp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7t7DWvk3hkJprUHqV1TkGMgF5+r18HSV4G8BsOd0W3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:38:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "axwdjlxii0"
+        },
+        {
+          "Name": "label",
+          "Value": "signUp/css/signUp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7t7DWvk3hkJprUHqV1TkGMgF5+r18HSV4G8BsOd0W3A="
+        }
+      ]
+    },
+    {
+      "Route": "signUp/css/signUp.css",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\css\\signUp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8781"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7t7DWvk3hkJprUHqV1TkGMgF5+r18HSV4G8BsOd0W3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:38:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7t7DWvk3hkJprUHqV1TkGMgF5+r18HSV4G8BsOd0W3A="
+        }
+      ]
+    },
+    {
+      "Route": "signUp/js/signUp.gtoa3o71qb.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\js\\signUp.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JI+BgD9kfWh2o3xwHZv9TunO40AFFLepq43jbHwUce8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:39:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gtoa3o71qb"
+        },
+        {
+          "Name": "label",
+          "Value": "signUp/js/signUp.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JI+BgD9kfWh2o3xwHZv9TunO40AFFLepq43jbHwUce8="
+        }
+      ]
+    },
+    {
+      "Route": "signUp/js/signUp.js",
+      "AssetFile": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\signUp\\js\\signUp.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JI+BgD9kfWh2o3xwHZv9TunO40AFFLepq43jbHwUce8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 15 Jun 2025 16:39:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JI+BgD9kfWh2o3xwHZv9TunO40AFFLepq43jbHwUce8="
         }
       ]
     }

@@ -10,7 +10,7 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
         public ActionResult Index()
         {
 
-            return View();
+            return RedirectToAction("Index", "Dashboard");
         }
 
         // GET: HomeController/Details/5

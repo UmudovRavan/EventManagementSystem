@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
+using CodeAcademyEventManagementSystem.Data;
 using CodeAcademyEventManagementSystem.Entities;
 using CodeAcademyEventManagementSystem.Repository.Interface;
 using CodeAcademyEventManagementSystem.Service.Interfaces;
 using CodeAcademyEventManagementSystem.ViewModels.Event;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodeAcademyEventManagementSystem.Service.Implementation
 {
@@ -10,12 +12,14 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
     {
         private readonly IEventRepository _eventRepository;
         private readonly IMapper _mapper;
+        private readonly EventSystemDB _context;
 
-        public EventService(IEventRepository eventRepository, IMapper mapper)
+        public EventService(IEventRepository eventRepository, IMapper mapper ,EventSystemDB context)
             : base(eventRepository, mapper)
         {
             _eventRepository = eventRepository;
             _mapper = mapper;
+            _context = context;
         }
             
         public async Task<IEnumerable<EventVM>> GetAllEventsWithDetailsAsync()
@@ -46,5 +50,13 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             await _eventRepository.SaveChangesAsync(); // Benzer şekilde
             return _mapper.Map<EventVM>(updatedEntity);
         }
+        public async Task<List<Event>> GetCurrentEventsAsync()
+        {
+            return await _context.Events
+                .Where(e => e.Date >= DateTime.Now)
+                .OrderBy(e => e.Date)
+                .ToListAsync();
+        }
+
     }
 }

@@ -1,0 +1,31 @@
+﻿<header class="header">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-8">
+                <button class="mobile-toggle me-3" onclick="toggleSidebar()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1 onclick="showDashboard()" class="d-inline">
+                    @* Bu hissə dashboarda keçid üçün istifadə edilə bilər, lakin səhifə yenilənməyəcək *@
+                    <i class="fas fa-calendar-alt me-2"></i>CodeAcademyEvent
+                </h1>
+            </div>
+            <div class="col-md-6 col-4 text-end">
+                <div class="auth-buttons">
+                    <form asp-controller="Account" asp-action="LogoutMain" method="post" class="d-inline">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-outline-light no-loading">
+                            <i class="fas fa-sign-in-alt me-1"></i>Logout
+                        </button>
+                    </form>
+
+
+                    @* <button class="btn btn-outline-light no-loading"> *@
+                    @*     @* No-loading klassı əlavə edildi *@ 
+                    @*     <i class="fas fa-user-plus me-1"></i>Signup *@
+                    @* </button> *@
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

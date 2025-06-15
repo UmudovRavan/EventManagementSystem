@@ -18,10 +18,24 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             _mapper = mapper;
         }
 
+        public async Task CreateAsync(LocationCreateVM model)
+        {
+            var entity = _mapper.Map<Location>(model);
+            await _locationRepository.AddAsync(entity);
+            await _locationRepository.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<LocationVM>> GetLocationsWithCapacityGreaterThan(int capacity)
         {
             var locations = await _locationRepository.GetLocationsByCapacityAsync(capacity);
             return _mapper.Map<IEnumerable<LocationVM>>(locations);
+        }
+
+        public async Task Update(LocationEditVM model)
+        {
+            var entity = _mapper.Map<Location>(model);
+            await _locationRepository.UpdateAsync(entity);
+            await _locationRepository.SaveChangesAsync();
         }
     }
 }

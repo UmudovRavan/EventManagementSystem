@@ -6,5 +6,6 @@ namespace CodeAcademyEventManagementSystem.Service.Interfaces
     public interface IEventTypeService : IGenericService<EventTypeVM, EventType>
     {
         Task<EventTypeVM> GetEventTypeByNameAsync(string name);
+        Task Update(EventType eventTypeEntity);
     }
 }

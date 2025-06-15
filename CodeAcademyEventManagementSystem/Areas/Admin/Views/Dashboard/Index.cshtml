@@ -1,0 +1,61 @@
+﻿@model CodeAcademyEventManagementSystem.Areas.Admin.Models.DashboardVM
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<section id="pending-registrations" class="content-section active">
+
+<div class="container-fluid py-4">
+
+    <h2>Events by Location</h2>
+    <div class="row">
+        @foreach (var location in Model.LocationStats)
+        {
+            <div class="col-md-6 mb-2">
+                <strong>@location.Name</strong> - @location.EventCount events
+                <div class="progress">
+                    <div class="progress-bar bg-purple" role="progressbar" style="width: @location.Percentage%">
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+        <h2 class="mt-4">Current Events</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>EVENT NAME</th>
+                    <th>TYPE</th>
+                    <th>DATE</th>
+                    <th>LOCATION</th>
+                    <th>STATUS</th>
+                    <th>RATING</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var ev in Model.CurrentEvents)
+                {
+                    <tr>
+                        <td>@ev.Title</td>
+                        <td>@ev.EventTypeName</td>
+                        <td>@ev.Date.ToString("MMM dd, yyyy")</td>
+                        <td>@ev.LocationName</td>
+                        <td>
+                            <span class="badge bg-@ev.StatusColor">
+                                @ev.Status
+                            </span>
+                        </td>
+                        <td>
+                            <i class="fas fa-star text-warning"></i> @ev.Rating
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+</div>
+</section>
+

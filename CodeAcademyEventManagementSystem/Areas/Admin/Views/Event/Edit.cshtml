@@ -1,0 +1,61 @@
+﻿@model CodeAcademyEventManagementSystem.ViewModels.Event.EventEditVM
+
+@{
+    ViewData["Title"] = "Tədbiri Redaktə Et";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid py-4">
+    <h2 class="mb-4">Tədbiri Redaktə Et</h2>
+
+    <form asp-action="Edit" method="post" novalidate>
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label"></label>
+            <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Date" class="form-label"></label>
+            <input asp-for="Date" class="form-control" type="datetime-local" />
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="LocationId" class="form-label"></label>
+            <select asp-for="LocationId" class="form-select" asp-items="ViewBag.Locations"></select>
+            <span asp-validation-for="LocationId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="EventTypeId" class="form-label"></label>
+            <select asp-for="EventTypeId" class="form-select" asp-items="ViewBag.EventTypes"></select>
+            <span asp-validation-for="EventTypeId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="OrganizerId" class="form-label"></label>
+            <select asp-for="OrganizerId" class="form-select" asp-items="ViewBag.Organizers"></select>
+            <span asp-validation-for="OrganizerId" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-warning me-2">Yadda Saxla</button>
+        <a asp-action="Index" class="btn btn-secondary">Geri</a>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger mt-3" })
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

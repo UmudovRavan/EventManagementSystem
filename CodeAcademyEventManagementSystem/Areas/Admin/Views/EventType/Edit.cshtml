@@ -1,0 +1,31 @@
+﻿@model CodeAcademyEventManagementSystem.ViewModels.EventType.EventTypeEditVM
+
+@{
+    ViewData["Title"] = "Tədbirin növünü Redaktə Et";
+    Layout = "_AdminLayout";
+}
+
+<div class="container-fluid py-4">
+    <h2 class="mb-4">Tədbirin növünü Redaktə Et</h2>
+
+    <form asp-action="Edit" method="post" novalidate>
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary me-2">Yadda saxla</button>
+        <a asp-action="Index" class="btn btn-secondary">Geri</a>
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger mt-3" })
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

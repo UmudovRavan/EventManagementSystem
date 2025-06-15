@@ -14,5 +14,7 @@
         public ICollection<Invitation> Invitations { get; set; }
         public ICollection<Notification> Notifications { get; set; }
         public ICollection<Feedback> Feedbacks { get; set; }
+        public bool IsActive { get; set; } = true;
+
     }
 }
