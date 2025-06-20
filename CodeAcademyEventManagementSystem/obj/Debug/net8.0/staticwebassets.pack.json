@@ -4881,6 +4881,18 @@
       "PackagePath": "staticwebassets\\signup.html"
     },
     {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\user.html",
+      "PackagePath": "staticwebassets\\user.html"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\user\\css\\style.css",
+      "PackagePath": "staticwebassets\\user\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Ravan\\Desktop\\MVC C#\\CodeAcademyEventManagementSystem\\CodeAcademyEventManagementSystem\\wwwroot\\user\\js\\script.js",
+      "PackagePath": "staticwebassets\\user\\js\\script.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CodeAcademyEventManagementSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

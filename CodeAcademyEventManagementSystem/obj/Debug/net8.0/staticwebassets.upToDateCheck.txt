@@ -1217,3 +1217,6 @@ wwwroot\signIn\js\signIn.js
 wwwroot\signup.html
 wwwroot\signUp\css\signUp.css
 wwwroot\signUp\js\signUp.js
+wwwroot\user.html
+wwwroot\user\css\style.css
+wwwroot\user\js\script.js

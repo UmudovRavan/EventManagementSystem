@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeAcademyEvent - User Dashboard</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="user/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="header-left">
+                    <button class="mobile-toggle" onclick="toggleSidebar()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <div class="logo" onclick="showSection('home')">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h1>CodeAcademyEvent</h1>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <div class="auth-buttons">
+                        <button class="btn btn-outline-light">
+                            <i class="fas fa-cog"></i>
+                            <span class="btn-text">Admin Panel</span>
+                        </button>
+                        <button class="btn btn-outline-light">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <span class="btn-text">Login</span>
+                        </button>
+                        <button class="btn btn-outline-light">
+                            <i class="fas fa-user-plus"></i>
+                            <span class="btn-text">Signup</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sidebar Overlay for Mobile -->
+    <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <ul class="sidebar-menu">
+            <li>
+                <a href="#" onclick="showSection('home')" class="active" data-section="home">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('invitation')" data-section="invitation">
+                    <i class="fas fa-envelope"></i>
+                    <span>Invitation</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('feedback')" data-section="feedback">
+                    <i class="fas fa-comment-dots"></i>
+                    <span>Feedback</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="showSection('check')" data-section="check">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Check</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home" class="content-section active">
+                <div class="section-header">
+                    <h2><i class="fas fa-home me-2"></i>Home</h2>
+                    <span class="badge badge-info">Welcome</span>
+                </div>
+                <div class="welcome-card">
+                    <h3>Welcome to CodeAcademyEvent</h3>
+                    <p>Select a navigation item from the sidebar to get started with your dashboard.</p>
+                </div>
+            </section>
+
+            <!-- Invitation Section -->
+            <section id="invitation" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-envelope me-2"></i>Invitation</h2>
+                    <span class="badge badge-success">Active</span>
+                </div>
+                <div class="welcome-card">
+                    <h3>Event Invitations</h3>
+                    <p>Manage your event invitations and RSVPs here.</p>
+                </div>
+            </section>
+
+            <!-- Feedback Section -->
+            <section id="feedback" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-comment-dots me-2"></i>Feedback</h2>
+                    <span class="badge badge-warning">Pending</span>
+                </div>
+                <div class="welcome-card">
+                    <h3>Event Feedback</h3>
+                    <p>Share your feedback and view responses from events you've attended.</p>
+                </div>
+            </section>
+
+            <!-- Check Section -->
+            <section id="check" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-check-circle me-2"></i>Check</h2>
+                    <span class="badge badge-info">Status</span>
+                </div>
+                <div class="welcome-card">
+                    <h3>Status Check</h3>
+                    <p>Check your registration status and event confirmations.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="user/js/script.js"></script>
+</body>
+</html>
