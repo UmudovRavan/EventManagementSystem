@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Areas/Admin/Views/Event/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Areas/Admin/Views/Event/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXZlbnRcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -108,6 +112,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9BZG1pblNpZGViYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Areas/Admin/Views/UserApproval/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcVXNlckFwcHJvdmFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -124,12 +132,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Views/Invitation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52aXRhdGlvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Views/Shared/_HeaderLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXJMYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Views/Shared/_SidebarLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Views/UserAccount/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjY291bnRcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Views/UserAccount/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFjY291bnRcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Ravan/Desktop/MVC C\#/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem/Views/_ViewImports.cshtml]

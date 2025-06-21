@@ -52,6 +52,10 @@
                                             <i class="fas fa-edit"></i> Dəyiş
                                         </a>
 
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info me-1">
+                                            <i class="fas fa-users"></i> Dəvətlər
+                                        </a>
+
                                         <form asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline;"
                                               onsubmit="return confirm('Bu tədbiri silmək istədiyinizə əminsiniz?');">
                                             @Html.AntiForgeryToken()

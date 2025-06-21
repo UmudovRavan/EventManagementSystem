@@ -12,6 +12,7 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
         {
             _context = context;
         }
+
         public async Task<IEnumerable<Invitation>> GetInvitationsWithEventAndPersonAsync()
         {
             return await _context.Invitations

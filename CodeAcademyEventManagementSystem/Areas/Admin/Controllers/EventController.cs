@@ -1,5 +1,7 @@
 ﻿using CodeAcademyEventManagementSystem.Service.Interfaces;
 using CodeAcademyEventManagementSystem.ViewModels.Event;
+using CodeAcademyEventManagementSystem.ViewModels.Invitation;
+using CodeAcademyEventManagementSystem.ViewModels.Person;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
@@ -12,17 +14,23 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
         private readonly ILocationService _locationService;
         private readonly IEventTypeService _eventTypeService;
         private readonly IOrganizerService _organizerService;
+        private readonly IPersonService _personService;
+        private readonly IInvitationService _invitationService;
 
         public EventController(
             IEventService eventService,
             ILocationService locationService,
             IEventTypeService eventTypeService,
-            IOrganizerService organizerService)
+            IOrganizerService organizerService,
+            IPersonService personService,
+            IInvitationService invitationService)
         {
             _eventService = eventService;
             _locationService = locationService;
             _eventTypeService = eventTypeService;
             _organizerService = organizerService;
+            _personService = personService;
+            _invitationService = invitationService;
         }
 
         public async Task<IActionResult> Index()
@@ -30,6 +38,57 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             var events = await _eventService.GetAllEventsWithDetailsAsync();
             return View(events);
         }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            var eventModel = await _eventService.GetEventByIdWithDetailsAsync(id);
+            if (eventModel == null)
+            {
+                return NotFound();
+            }
+
+            var invitations = await _invitationService.GetInvitationsForEventAsync(id) ?? Enumerable.Empty<InvitationVM>();
+            var invitedPersonIds = invitations.Select(i => i.PersonId).ToList();
+
+            var allUsers = await _personService.GetAllAsync() ?? Enumerable.Empty<PersonVM>();
+            var usersToInvite = allUsers.Where(u => !invitedPersonIds.Contains(u.Id));
+
+            // Təhlükəsiz SelectList yaratmaq üçün
+            var userSelectList = usersToInvite.Select(u => new
+            {
+                Id = u.Id,
+                FullName = u.Name + " " + u.Surname
+            }).ToList();
+
+
+            ViewBag.Invitations = invitations;
+            ViewBag.UsersToInvite = new SelectList(userSelectList, "Id", "FullName");
+
+            return View(eventModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Invite(int eventId, int personIdToInvite)
+        {
+            if (personIdToInvite > 0)
+            {
+                var invitationModel = new InvitationCreateVM
+                {
+                    EventId = eventId,
+                    PersonId = personIdToInvite
+                };
+                await _invitationService.CreateInvitationAsync(invitationModel);
+                TempData["SuccessMessage"] = "Dəvət uğurla göndərildi.";
+            }
+            else
+            {
+                TempData["ErrorMessage"] = "Zəhmət olmasa, dəvət üçün istifadəçi seçin.";
+            }
+
+            return RedirectToAction("Details", new { id = eventId });
+        }
+
 
         public async Task<IActionResult> Create()
         {
@@ -110,30 +169,15 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             await _eventService.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
-
         private async Task PopulateDropdowns()
         {
             var locations = await _locationService.GetAllAsync();
             var eventTypes = await _eventTypeService.GetAllAsync();
             var organizers = await _organizerService.GetAllAsync();
 
-            ViewBag.Locations = locations.Select(l => new SelectListItem
-            {
-                Value = l.Id.ToString(),
-                Text = l.Name
-            });
-
-            ViewBag.EventTypes = eventTypes.Select(et => new SelectListItem
-            {
-                Value = et.Id.ToString(),
-                Text = et.Name
-            });
-
-            ViewBag.Organizers = organizers.Select(o => new SelectListItem
-            {
-                Value = o.Id.ToString(),
-                Text = o.FullName
-            });
+            ViewBag.Locations = new SelectList(locations, "Id", "Name");
+            ViewBag.EventTypes = new SelectList(eventTypes, "Id", "Name");
+            ViewBag.Organizers = new SelectList(organizers, "Id", "FullName");
         }
     }
 }

@@ -12,19 +12,48 @@
             </div>
             <div class="header-right">
                 <div class="auth-buttons">
-                    <a class="btn btn-outline-light" asp-area="Admin" asp-controller="Account" asp-action="SignIn">
-                        <i class="fas fa-cog"></i>
-                        <span class="btn-text">Admin Panel</span>
-                    </a>
 
-                    <button class="btn btn-outline-light">
-                        <i class="fas fa-sign-in-alt"></i>
-                        <span class="btn-text">Login</span>
-                    </button>
-                    <button class="btn btn-outline-light">
-                        <i class="fas fa-user-plus"></i>
-                        <span class="btn-text">Signup</span>
-                    </button>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a class="btn btn-outline-light" asp-area="Admin" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-cog"></i>
+                                <span class="btn-text">Admin Panel</span>
+                            </a>
+                        }
+
+                        <div style="display: flex; align-items: center; margin-right: 1rem;">
+                            <i class="fas fa-user-circle" style="font-size: 1.7rem; color: white; margin-right: 8px;"></i>
+                            <span style="font-size: 1.1rem; font-weight: 500; color: white;">
+                                Xoş gəldin @User.Identity.Name
+                            </span>
+                        </div>
+                        <form asp-controller="UserAccount" asp-action="Logout" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-outline-light">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <span class="btn-text">Logout</span>
+                            </button>
+                        </form>
+                    }
+                    else
+                    {
+                        <a class="btn btn-outline-light" asp-area="Admin" asp-controller="Account" asp-action="SignIn">
+                            <i class="fas fa-cog"></i>
+                            <span class="btn-text">Admin Panel</span>
+                        </a>
+
+                        <a asp-controller="UserAccount" asp-action="Login" class="btn btn-outline-light">
+                            <i class="fas fa-sign-in-alt"></i>
+                            <span class="btn-text">Login</span>
+                        </a>
+
+                        <a asp-controller="UserAccount" asp-action="Register" class="btn btn-outline-light">
+                            <i class="fas fa-user-plus"></i>
+                            <span class="btn-text">Signup</span>
+                        </a>
+                    }
+
                 </div>
             </div>
         </div>

@@ -132,7 +132,6 @@ namespace CodeAcademyEventManagementSystem.Data
                         {
                             EventId = @event.Id,
                             PersonId = personAli.Id,
-                            Status = "Accepted",
                             SentAt = DateTime.Now,
                             CreatedAt = DateTime.Now,
                             UpdatedAt = DateTime.Now,

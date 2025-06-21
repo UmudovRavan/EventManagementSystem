@@ -1,0 +1,64 @@
+﻿@model IEnumerable<CodeAcademyEventManagementSystem.ViewModels.Invitation.InvitationVM>
+
+@{
+    ViewData["Title"] = "Dəvətlərim";
+    Layout = "_Layout"; // və ya "_AdminLayout" əgər ondan istifadə edirsənsə
+}
+
+
+<div class="container mt-5">
+    <h1 class="mb-4">Dəvətlərim</h1>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="alert alert-info" role="alert">
+            Heç bir yeni dəvətiniz yoxdur.
+        </div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Tədbirin Adı</th>
+                        <th>Tədbirin Tarixi</th>
+                        <th>Status</th>
+                        <th>Əməliyyatlar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var invitation in Model)
+                    {
+                        <tr>
+                            <td>@invitation.EventTitle</td>
+                            <td>@invitation.EventDate.ToString("dd MMMM yyyy, HH:mm")</td>
+                            <td>
+                                <span class="badge
+                                    @(invitation.Status == "Qəbul_edildi" ? "bg-success" :
+                                      invitation.Status == "Rədd_edildi" ? "bg-danger" : "bg-warning text-dark")">
+                                    @invitation.Status.Replace("_", " ")
+                                </span>
+                            </td>
+                            <td>
+                                @if (invitation.Status == "Gözləmədə")
+                                {
+                                    <form asp-action="Accept" asp-route-id="@invitation.Id" method="post" style="display: inline-block;">
+                                        <button type="submit" class="btn btn-success btn-sm">
+                                            <i class="fas fa-check"></i> Qəbul et
+                                        </button>
+                                    </form>
+                                    <form asp-action="Decline" asp-route-id="@invitation.Id" method="post" style="display: inline-block;">
+                                        <button type="submit" class="btn btn-danger btn-sm">
+                                            <i class="fas fa-times"></i> Rədd et
+                                        </button>
+                                    </form>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

@@ -28,10 +28,10 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             var allInvitationsWithDetails = await _invitationRepository.GetInvitationsWithEventAndPersonAsync();
             var invitation = allInvitationsWithDetails.FirstOrDefault(i => i.Id == invitationId);
 
-            if (invitation == null || invitation.Status != InvitationStatus.Accepted.ToString()) // String karşılaştırma
-            {
-                throw new InvalidOperationException("Davet bulunamadı veya kabul edilmediği için check-in yapılamaz.");
-            }
+            //if (invitation == null || invitation.Status != InvitationStatus.Accepted.ToString()) // String karşılaştırma
+            //{
+            //    throw new InvalidOperationException("Davet bulunamadı veya kabul edilmediği için check-in yapılamaz.");
+            //}
 
             // Eğer bu davetiye için zaten bir katılım varsa, hata fırlatabilir veya mevcut katılımı döndürebilirsiniz.
             var existingParticipation = await _participationRepository.GetParticipationByInvitationIdAsync(invitationId);

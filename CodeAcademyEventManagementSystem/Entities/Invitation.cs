@@ -1,4 +1,7 @@
-﻿namespace CodeAcademyEventManagementSystem.Entities
+﻿using CodeAcademyEventManagementSystem.Enums;
+using CodeAcademyEventManagementSystem.Service.Interfaces;
+
+namespace CodeAcademyEventManagementSystem.Entities
 {
     public class Invitation : BaseEntity
     {
@@ -6,7 +9,7 @@
         public Event Event { get; set; }
         public int PersonId { get; set; }
         public Person Person { get; set; }
-        public string Status { get; set; }
+        public InvitationStatus Status { get; set; }
         public DateTime SentAt { get; set; }
         public Participation Participation { get; set; }
     }

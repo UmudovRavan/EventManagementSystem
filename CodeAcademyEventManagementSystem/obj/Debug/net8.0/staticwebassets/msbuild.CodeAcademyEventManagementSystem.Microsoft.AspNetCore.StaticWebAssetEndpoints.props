@@ -7156,13 +7156,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodeAcademyEventManagementSystem.5pqp2wgorc.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5pqp2wgorc"},{"Name":"integrity","Value":"sha256-l\u002BrDC/DQlKTuTnONknF0vzFsXdNOqjcSOEjAoq7lbm4="},{"Name":"label","Value":"_content/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1150"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l\u002BrDC/DQlKTuTnONknF0vzFsXdNOqjcSOEjAoq7lbm4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 21:26:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1150"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l\u002BrDC/DQlKTuTnONknF0vzFsXdNOqjcSOEjAoq7lbm4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 22:09:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CodeAcademyEventManagementSystem/CodeAcademyEventManagementSystem.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CodeAcademyEventManagementSystem.5pqp2wgorc.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-l\u002BrDC/DQlKTuTnONknF0vzFsXdNOqjcSOEjAoq7lbm4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1150"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l\u002BrDC/DQlKTuTnONknF0vzFsXdNOqjcSOEjAoq7lbm4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 20 Jun 2025 21:26:50 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1150"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022l\u002BrDC/DQlKTuTnONknF0vzFsXdNOqjcSOEjAoq7lbm4=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Jun 2025 22:09:10 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CodeAcademyEventManagementSystem/css/site.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>

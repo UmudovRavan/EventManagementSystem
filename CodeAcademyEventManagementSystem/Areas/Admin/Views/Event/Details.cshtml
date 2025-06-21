@@ -1,0 +1,88 @@
+﻿@using CodeAcademyEventManagementSystem.ViewModels.Invitation
+@model CodeAcademyEventManagementSystem.ViewModels.Event.EventVM
+@{
+    ViewData["Title"] = "Tədbir Detalları və Dəvətlər";
+    Layout = "_AdminLayout";
+
+    var invitations = (ViewBag.Invitations as IEnumerable<InvitationVM>) ?? Enumerable.Empty<InvitationVM>();
+    var usersToInvite = ViewBag.UsersToInvite as SelectList;
+}
+
+<div class="container-fluid py-4">
+    <h2 class="mb-4">
+        <i class="fas fa-calendar-alt me-2"></i> Tədbir: @Model.Title
+    </h2>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <!-- ============================================= -->
+    <!-- === DƏVƏT GÖNDƏRMƏ FORMU BURADADIR === -->
+    <!-- ============================================= -->
+    <div class="card mb-4">
+        <div class="card-header">
+            <h5 class="mb-0"><i class="fas fa-paper-plane me-2"></i>Yeni Dəvət Göndər</h5>
+        </div>
+        <div class="card-body">
+            <form asp-controller="Event" asp-action="Invite" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" name="eventId" value="@Model.Id" />
+                <div class="row align-items-end">
+                    <div class="col-md-8">
+                        <label for="personIdToInvite" class="form-label">Dəvət üçün istifadəçi seçin:</label>
+                        <select name="personIdToInvite" asp-items="usersToInvite" class="form-control">
+                            <option value="">-- İstifadəçi seçin --</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary w-100 mt-3 mt-md-0">
+                            <i class="fas fa-check me-1"></i> Dəvət Göndər
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Göndərilmiş Dəvətlər Siyahısı -->
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0"><i class="fas fa-users me-2"></i>Göndərilmiş Dəvətlər</h5>
+        </div>
+        <div class="card-body table-responsive">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Dəvət Olunan Şəxs</th>
+                        <th>Göndərilmə Tarixi</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var invitation in invitations)
+                    {
+                        <tr>
+                            <td>@(invitation.PersonName ?? "Ad tapılmadı")</td>
+                            <td>@invitation.SentAt.ToString("dd.MM.yyyy HH:mm")</td>
+                            <td>
+                                @(invitation.Status?.Replace("_", " ") ?? "Təyin edilməyib")
+                            </td>
+                        </tr>
+                    }
+                    @if (!invitations.Any())
+                    {
+                        <tr>
+                            <td colspan="3" class="text-center text-muted">Bu tədbirə heç kim dəvət edilməyib.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

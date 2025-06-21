@@ -1,16 +1,18 @@
 ﻿<nav class="sidebar" id="sidebar">
     <ul class="sidebar-menu">
         <li>
-            <a href="#" onclick="showSection('home')" class="active" data-section="home">
+            <a asp-controller="Home" asp-action="Index" class="active" data-section="home">
                 <i class="fas fa-home"></i>
                 <span>Home</span>
             </a>
+
         </li>
         <li>
-            <a href="#" onclick="showSection('invitation')" data-section="invitation">
+            <a asp-controller="Invitation" asp-action="Index">
                 <i class="fas fa-envelope"></i>
                 <span>Invitation</span>
             </a>
+
         </li>
         <li>
             <a href="#" onclick="showSection('feedback')" data-section="feedback">
