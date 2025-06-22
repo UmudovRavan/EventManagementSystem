@@ -10,14 +10,11 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
     {
         private readonly IFeedbackRepository _feedbackRepository;
         private readonly IMapper _mapper;
-
-        public FeedbackService(IFeedbackRepository feedbackRepository, IMapper mapper)
-            : base(feedbackRepository, mapper)
+        public FeedbackService(IFeedbackRepository feedbackRepository, IMapper mapper) : base(feedbackRepository, mapper)
         {
             _feedbackRepository = feedbackRepository;
             _mapper = mapper;
         }
-
         public async Task<FeedbackVM> AddFeedbackAsync(FeedbackCreateVM model)
         {
             var feedback = _mapper.Map<Feedback>(model);
@@ -26,14 +23,12 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             await _feedbackRepository.SaveChangesAsync();
             return _mapper.Map<FeedbackVM>(result);
         }
-
         public async Task<IEnumerable<FeedbackVM>> GetFeedbackForEventAsync(int eventId)
         {
             var allFeedbacksWithDetails = await _feedbackRepository.GetFeedbacksWithDetailsAsync();
             var filteredFeedbacks = allFeedbacksWithDetails.Where(f => f.EventId == eventId);
             return _mapper.Map<IEnumerable<FeedbackVM>>(filteredFeedbacks);
         }
-
         public async Task<double> GetAverageRatingForEventAsync(int eventId)
         {
             var allFeedbacksWithDetails = await _feedbackRepository.GetFeedbacksWithDetailsAsync();
@@ -45,7 +40,6 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             }
             return eventFeedbacks.Average(f => f.Rating);
         }
-
         public async Task<IEnumerable<FeedbackVM>> GetAllFeedbacksWithDetailsAsync()
         {
             var feedbacks = await _feedbackRepository.GetFeedbacksWithDetailsAsync();

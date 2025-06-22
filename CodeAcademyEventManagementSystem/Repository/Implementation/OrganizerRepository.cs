@@ -8,10 +8,7 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
     public class OrganizerRepository : GenericRepository<Organizer>, IOrganizerRepository
     {
         private readonly EventSystemDB _context; 
-        public OrganizerRepository(EventSystemDB context) : base(context)
-        {
-            _context = context; 
-        }
+        public OrganizerRepository(EventSystemDB context) : base(context) => _context = context;
         public async Task<Organizer> GetOrganizerByEmailAsync(string email)
         {
             return await _context.Organizers

@@ -8,10 +8,7 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
     public class InvitationRepository : GenericRepository<Invitation>, IInvitationRepository
     {
         private readonly EventSystemDB _context;
-        public InvitationRepository(EventSystemDB context) : base(context)
-        {
-            _context = context;
-        }
+        public InvitationRepository(EventSystemDB context) : base(context) => _context = context;
 
         public async Task<IEnumerable<Invitation>> GetInvitationsWithEventAndPersonAsync()
         {

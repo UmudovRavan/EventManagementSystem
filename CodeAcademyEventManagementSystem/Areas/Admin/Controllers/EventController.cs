@@ -16,7 +16,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
         private readonly IOrganizerService _organizerService;
         private readonly IPersonService _personService;
         private readonly IInvitationService _invitationService;
-
         public EventController(
             IEventService eventService,
             ILocationService locationService,
@@ -32,13 +31,11 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             _personService = personService;
             _invitationService = invitationService;
         }
-
         public async Task<IActionResult> Index()
         {
             var events = await _eventService.GetAllEventsWithDetailsAsync();
             return View(events);
         }
-
         public async Task<IActionResult> Details(int id)
         {
             var eventModel = await _eventService.GetEventByIdWithDetailsAsync(id);
@@ -46,26 +43,19 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-
             var invitations = await _invitationService.GetInvitationsForEventAsync(id) ?? Enumerable.Empty<InvitationVM>();
             var invitedPersonIds = invitations.Select(i => i.PersonId).ToList();
-
             var allUsers = await _personService.GetAllAsync() ?? Enumerable.Empty<PersonVM>();
             var usersToInvite = allUsers.Where(u => !invitedPersonIds.Contains(u.Id));
-
             var userSelectList = usersToInvite.Select(u => new
             {
                 Id = u.Id,
                 FullName = u.Name + " " + u.Surname
             }).ToList();
-
-
             ViewBag.Invitations = invitations;
             ViewBag.UsersToInvite = new SelectList(userSelectList, "Id", "FullName");
-
             return View(eventModel);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Invite(int eventId, int personIdToInvite)
@@ -84,17 +74,13 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             {
                 TempData["ErrorMessage"] = "Zəhmət olmasa, dəvət üçün istifadəçi seçin.";
             }
-
             return RedirectToAction("Details", new { id = eventId });
         }
-
-
         public async Task<IActionResult> Create()
         {
             await PopulateDropdowns();
             return View();
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(EventCreateVM eventVM)
@@ -104,19 +90,13 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 await _eventService.CreateEventAsync(eventVM);
                 return RedirectToAction(nameof(Index));
             }
-
             await PopulateDropdowns();
             return View(eventVM);
         }
-
         public async Task<IActionResult> Edit(int id)
         {
             var eventToEdit = await _eventService.GetEventByIdWithDetailsAsync(id);
-            if (eventToEdit == null)
-            {
-                return NotFound();
-            }
-
+            if (eventToEdit == null) return NotFound();
             var model = new EventEditVM
             {
                 Id = eventToEdit.Id,
@@ -127,12 +107,9 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 EventTypeId = eventToEdit.EventTypeId,
                 OrganizerId = eventToEdit.OrganizerId
             };
-
             await PopulateDropdowns(); 
-
             return View(model);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(EventEditVM model)
@@ -142,13 +119,9 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 await _eventService.UpdateEventAsync(model);
                 return RedirectToAction(nameof(Index));
             }
-
             await PopulateDropdowns();
             return View(model);
         }
-
-
-
         public async Task<IActionResult> Delete(int id)
         {
             var eventToDelete = await _eventService.GetByIdAsync(id);
@@ -158,7 +131,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             }
             return View(eventToDelete);
         }
-
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
@@ -171,7 +143,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             var locations = await _locationService.GetAllAsync();
             var eventTypes = await _eventTypeService.GetAllAsync();
             var organizers = await _organizerService.GetAllAsync();
-
             ViewBag.Locations = new SelectList(locations, "Id", "Name");
             ViewBag.EventTypes = new SelectList(eventTypes, "Id", "Name");
             ViewBag.Organizers = new SelectList(organizers, "Id", "FullName");

@@ -14,27 +14,23 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
         private readonly IMapper _mapper;
         private readonly EventSystemDB _context;
 
-        public EventService(IEventRepository eventRepository, IMapper mapper ,EventSystemDB context)
-            : base(eventRepository, mapper)
+        public EventService(IEventRepository eventRepository, IMapper mapper ,EventSystemDB context): base(eventRepository, mapper)
         {
             _eventRepository = eventRepository;
             _mapper = mapper;
             _context = context;
-        }
-            
+        }            
         public async Task<IEnumerable<EventVM>> GetAllEventsWithDetailsAsync()
         {
             var events = await _eventRepository.GetAllWithDetailsAsync();
             return _mapper.Map<IEnumerable<EventVM>>(events);
         }
-
         public async Task<EventVM> GetEventByIdWithDetailsAsync(int id)
         {
             var allEventsWithDetails = await _eventRepository.GetAllWithDetailsAsync();
             var eventEntity = allEventsWithDetails.FirstOrDefault(e => e.Id == id);
             return _mapper.Map<EventVM>(eventEntity);
         }
-
         public async Task<EventVM> CreateEventAsync(EventCreateVM model)
         {
             var entity = _mapper.Map<Event>(model);
@@ -42,7 +38,6 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             await _eventRepository.SaveChangesAsync(); 
             return _mapper.Map<EventVM>(result);
         }
-
         public async Task<EventVM> UpdateEventAsync(EventEditVM model)
         {
             var entity = _mapper.Map<Event>(model);
@@ -57,6 +52,5 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
                 .OrderBy(e => e.Date)
                 .ToListAsync();
         }
-
     }
 }

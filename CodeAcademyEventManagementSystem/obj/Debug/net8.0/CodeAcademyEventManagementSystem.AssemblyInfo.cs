@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CodeAcademyEventManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe7fed2940b42d0dbd7f9adfc71aef53003c40e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1d6781137c85b13bf120cce4545ba29e1c5092b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CodeAcademyEventManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CodeAcademyEventManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

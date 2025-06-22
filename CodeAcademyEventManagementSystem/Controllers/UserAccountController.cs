@@ -14,19 +14,13 @@ namespace CodeAcademyEventManagementSystem.Controllers
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly EventSystemDB _dbContext;
-
-        public UserAccountController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
-            RoleManager<IdentityRole> roleManager,
-            EventSystemDB dbContext)
+        public UserAccountController(UserManager<ApplicationUser> userManager,SignInManager<ApplicationUser> signInManager,RoleManager<IdentityRole> roleManager,EventSystemDB dbContext)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _dbContext = dbContext;
         }
-
         [HttpGet]
         public IActionResult Register()
         {
@@ -41,7 +35,6 @@ namespace CodeAcademyEventManagementSystem.Controllers
             };
             return View(model);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(UserSignUpVM model)
@@ -56,7 +49,6 @@ namespace CodeAcademyEventManagementSystem.Controllers
                 };
                 return View(model);
             }
-
             var user = new ApplicationUser
             {
                 UserName = model.Username,
@@ -64,22 +56,12 @@ namespace CodeAcademyEventManagementSystem.Controllers
                 EmailConfirmed = true,
                 IsApproved = true
             };
-
             var result = await _userManager.CreateAsync(user, model.Password);
-
             if (result.Succeeded)
             {
-                if (!await _roleManager.RoleExistsAsync("User"))
-                {
-                    await _roleManager.CreateAsync(new IdentityRole("User"));
-                }
-                if (!await _roleManager.RoleExistsAsync("Admin"))
-                {
-                    await _roleManager.CreateAsync(new IdentityRole("Admin"));
-                }
-
+                if (!await _roleManager.RoleExistsAsync("User")){await _roleManager.CreateAsync(new IdentityRole("User"));}
+                if (!await _roleManager.RoleExistsAsync("Admin")){await _roleManager.CreateAsync(new IdentityRole("Admin"));}
                 await _userManager.AddToRoleAsync(user, "User");
-
                 var person = new Person
                 {
                     Name = model.Username,
@@ -93,16 +75,10 @@ namespace CodeAcademyEventManagementSystem.Controllers
                 };
                 _dbContext.Persons.Add(person);
                 await _dbContext.SaveChangesAsync();
-
                 await _signInManager.SignInAsync(user, isPersistent: false);
                 return RedirectToAction("Index", "Home");
             }
-
-            foreach (var error in result.Errors)
-            {
-                ModelState.AddModelError(string.Empty, error.Description);
-            }
-
+            foreach (var error in result.Errors){ModelState.AddModelError(string.Empty, error.Description);}
             model.AvailablePersonRoles = new List<SelectListItem>
             {
                 new SelectListItem { Value = "Tələbə", Text = "Tələbə" },
@@ -111,7 +87,6 @@ namespace CodeAcademyEventManagementSystem.Controllers
             };
             return View(model);
         }
-
         [HttpGet]
         public IActionResult Login(string returnUrl = null)
         {
@@ -119,7 +94,6 @@ namespace CodeAcademyEventManagementSystem.Controllers
             ViewData["ReturnUrl"] = returnUrl;
             return View(model);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(UserSignInVM model, string returnUrl = null)
@@ -136,8 +110,6 @@ namespace CodeAcademyEventManagementSystem.Controllers
             }
             return View(model);
         }
-
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()

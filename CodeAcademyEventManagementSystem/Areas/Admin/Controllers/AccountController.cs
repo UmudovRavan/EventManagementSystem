@@ -15,44 +15,33 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly EventSystemDB _dbContext;
-
         public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager, EventSystemDB dbContext)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _dbContext = dbContext;
         }
-
         [HttpGet]
         public IActionResult SignIn()
         {
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> SignIn(SignInVM model)
         {
-            if (!ModelState.IsValid)
-            {
-                return View(model);
-            }
-
+            if (!ModelState.IsValid) return View(model);
             var user = await _userManager.FindByNameAsync(model.Username);
-
             if (user == null || !await _userManager.CheckPasswordAsync(user, model.Password))
             {
                 ModelState.AddModelError("", "İstifadəçi adı və ya şifrə yanlışdır.");
                 return View(model);
             }
-
             if (!user.IsApproved)
             {
                 ModelState.AddModelError("", "Hesabınız hələ admin tərəfindən təsdiqlənməyib. Zəhmət olmasa admin təsdiqini gözləyin.");
                 return View(model);
             }
-
             var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, true, false);
-
             if (result.Succeeded)
             {
                 user.LastLoginIpAdr = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Bilinmir";
@@ -76,7 +65,6 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
                 return View(model);
             }
         }
-
         [HttpGet]
         public IActionResult SignUp()
         {
@@ -91,7 +79,6 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
             };
             return View(model);
         }
-
         [HttpPost]
         public async Task<IActionResult> SignUp(SignUpVM signUpVM)
         {
@@ -105,7 +92,6 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
                 };
                 return View(signUpVM);
             }
-
             var remoteIpAdress = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Bilinmir";
             var user = new ApplicationUser
             {
@@ -115,7 +101,6 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
                 IsApproved = false,
                 LastLoginIpAdr = remoteIpAdress
             };
-
             var createResult = await _userManager.CreateAsync(user, signUpVM.Password);
             if (createResult.Succeeded)
             {
@@ -152,12 +137,10 @@ namespace CreditManagementSystemHomework.Areas.Admin.Controllers
             };
             return View(signUpVM);
         }
-
         public IActionResult Index()
         {
             return RedirectToAction("Index", "Home", new { area = "Admin" });
         }
-
         [HttpGet]
         public async Task<IActionResult> Logout()
         {

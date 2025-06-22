@@ -8,10 +8,7 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
     public class LocationRepository : GenericRepository<Location>,ILocationRepository
     {
         private readonly EventSystemDB _context; 
-        public LocationRepository(EventSystemDB context) : base(context)
-        {
-            _context = context; 
-        }
+        public LocationRepository(EventSystemDB context) : base(context) => _context = context;
 
         public async Task<IEnumerable<Location>> GetLocationsByCapacityAsync(int capacity)
         {

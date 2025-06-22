@@ -7,7 +7,6 @@ namespace CodeAcademyEventManagementSystem.Data
     public class EventSystemDB : IdentityDbContext<ApplicationUser>
     {
         public EventSystemDB(DbContextOptions<EventSystemDB> options) : base(options) { }
-
         public DbSet<Person> Persons { get; set; }
         public DbSet<Event> Events { get; set; }
         public DbSet<Invitation> Invitations { get; set; }
@@ -17,7 +16,6 @@ namespace CodeAcademyEventManagementSystem.Data
         public DbSet<Organizer> Organizers { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
-
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

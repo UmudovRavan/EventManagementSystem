@@ -9,7 +9,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Models
         public string Email { get; set; }
         [Display(Name = "Müraciət Edilən Rol")]
         public string DesiredPersonRole { get; set; }
-
         [Display(Name = "Qeydiyyat Tarixi")]
         public DateTime RegisteredAt { get; set; } 
         [Display(Name = "Təsdiqlənib")]

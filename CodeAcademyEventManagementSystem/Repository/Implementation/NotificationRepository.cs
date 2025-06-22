@@ -8,10 +8,7 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
     public class NotificationRepository : GenericRepository<Notification> ,INotificationRepository
     {
         private readonly EventSystemDB _context;
-        public NotificationRepository(EventSystemDB context) : base(context)
-        {
-            _context = context;
-        }
+        public NotificationRepository(EventSystemDB context) : base(context) => _context = context;
         public async Task<IEnumerable<Notification>> GetNotificationsWithEventAsync()
         {
             return await _context.Notifications

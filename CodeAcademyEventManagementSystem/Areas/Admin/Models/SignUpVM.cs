@@ -7,11 +7,9 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Models
     {
         [Required(ErrorMessage = "Username is required")]
         public string Username { get; set; }
-
         [Required(ErrorMessage = "Email is required")]
         [EmailAddress(ErrorMessage = "Enter a valid email")]
         public string Email { get; set; }
-
         [Required(ErrorMessage = "Password is required")]
         [DataType(DataType.Password)]
         public string Password { get; set; }

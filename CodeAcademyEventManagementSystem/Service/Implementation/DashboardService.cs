@@ -10,11 +10,7 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
     {
         private readonly EventSystemDB  _context;
 
-        public DashboardService(EventSystemDB context)
-        {
-            _context = context;
-        }
-
+        public DashboardService(EventSystemDB context) => _context = context;
         public async Task<DashboardVM> GetDashboardDataAsync()
         {
             var events = await _context.Events
@@ -22,7 +18,6 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
                 .Include(e => e.EventType)
                 .Include(e => e.Organizer)
                 .ToListAsync();
-
             var locationGroups = events
                 .GroupBy(e => e.Location.Name)
                 .Select(g => new LocationStatVM
@@ -31,7 +26,6 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
                     EventCount = g.Count(),
                     Percentage = 100.0 * g.Count() / events.Count
                 }).ToList();
-
             var eventVMs = events.Select(e => new EventVM
             {
                 Id = e.Id,
@@ -44,7 +38,6 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
                 Status = e.IsActive ? "Active" : "Pending",
                 StatusColor = e.IsActive ? "success" : "warning"              
             }).ToList();
-
             return new DashboardVM
             {
                 LocationStats = locationGroups,

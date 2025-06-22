@@ -15,7 +15,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly EventSystemDB _dbContext;
-
         public UserApprovalController(
             UserManager<ApplicationUser> userManager,
             RoleManager<IdentityRole> roleManager,
@@ -25,20 +24,14 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             _roleManager = roleManager;
             _dbContext = dbContext;
         }
-
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var usersToApprove = await _userManager.Users
-                                                    .Where(u => !u.IsApproved)
-                                                    .ToListAsync();
-
+            var usersToApprove = await _userManager.Users.Where(u => !u.IsApproved).ToListAsync();
             var userApprovalList = new List<UserApprovalVM>();
-
             foreach (var user in usersToApprove)
             {
                 var person = await _dbContext.Persons.FirstOrDefaultAsync(p => p.Email == user.Email);
-
                 userApprovalList.Add(new UserApprovalVM
                 {
                     Id = user.Id,
@@ -49,10 +42,8 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                     RegisteredAt = DateTime.Now
                 });
             }
-
             return View(userApprovalList);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Approve(string id)
@@ -63,17 +54,14 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 TempData["ErrorMessage"] = "İstifadəçi tapılmadı.";
                 return RedirectToAction(nameof(Index));
             }
-
             user.IsApproved = true;
             user.EmailConfirmed = true;
-
             var updateResult = await _userManager.UpdateAsync(user);
             if (!updateResult.Succeeded)
             {
                 TempData["ErrorMessage"] = "İstifadəçinin təsdiq statusunu yeniləməkdə xəta baş verdi.";
                 return RedirectToAction(nameof(Index));
             }
-
             var person = await _dbContext.Persons.FirstOrDefaultAsync(p => p.Email == user.Email);
             if (person != null && !string.IsNullOrEmpty(person.Role))
             {
@@ -81,10 +69,7 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 if (roleExists)
                 {
                     var addRoleResult = await _userManager.AddToRoleAsync(user, person.Role);
-                    if (!addRoleResult.Succeeded)
-                    {
-                        TempData["ErrorMessage"] = $"İstifadəçiyə '{person.Role}' rolunu təyin etməkdə xəta baş verdi.";
-                    }
+                    if (!addRoleResult.Succeeded) { TempData["ErrorMessage"] = $"İstifadəçiyə '{person.Role}' rolunu təyin etməkdə xəta baş verdi."; }
                 }
                 else
                 {
@@ -95,11 +80,9 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             {
                 TempData["ErrorMessage"] = "İstifadəçi üçün Person rolu tapılmadı və ya boşdur. Identity rolu təyin edilmədi.";
             }
-
             TempData["SuccessMessage"] = $"İstifadəçi '{user.UserName}' uğurla təsdiqləndi və rol təyin edildi.";
             return RedirectToAction(nameof(Index));
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Reject(string id)
@@ -110,21 +93,18 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 TempData["ErrorMessage"] = "İstifadəçi tapılmadı.";
                 return RedirectToAction(nameof(Index));
             }
-
             var person = await _dbContext.Persons.FirstOrDefaultAsync(p => p.Email == user.Email);
             if (person != null)
             {
                 _dbContext.Persons.Remove(person);
                 await _dbContext.SaveChangesAsync();
             }
-
             var deleteResult = await _userManager.DeleteAsync(user);
             if (!deleteResult.Succeeded)
             {
                 TempData["ErrorMessage"] = "İstifadəçini silməkdə xəta baş verdi.";
                 return RedirectToAction(nameof(Index));
             }
-
             TempData["SuccessMessage"] = $"İstifadəçi '{user.UserName}' uğurla rədd edildi və silindi.";
             return RedirectToAction(nameof(Index));
         }

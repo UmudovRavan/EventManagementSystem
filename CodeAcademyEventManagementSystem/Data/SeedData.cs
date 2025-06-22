@@ -11,16 +11,8 @@ namespace CodeAcademyEventManagementSystem.Data
             var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
             var context = serviceProvider.GetRequiredService<EventSystemDB>();
-
             string[] roleNames = { "Admin", "User", "Telebe", "Muellim", "Qonaq" };
-            foreach (var roleName in roleNames)
-            {
-                if (!await roleManager.RoleExistsAsync(roleName))
-                {
-                    await roleManager.CreateAsync(new IdentityRole(roleName));
-                }
-            }
-
+            foreach (var roleName in roleNames) { if (!await roleManager.RoleExistsAsync(roleName)) { await roleManager.CreateAsync(new IdentityRole(roleName)); } }
             string adminEmail = "ravanmu@code.edu.az";
             string adminPassword = "AdminPassword123!";
             string adminUserName = "admin-user";
@@ -40,7 +32,6 @@ namespace CodeAcademyEventManagementSystem.Data
                 if (result.Succeeded)
                 {
                     await userManager.AddToRoleAsync(adminUser, "Admin");
-
                     if(!await context.Persons.AnyAsync(p=>p.Email == adminEmail))
                     {
                         var adminPerson = new Person
@@ -93,13 +84,11 @@ namespace CodeAcademyEventManagementSystem.Data
                 );
                 await context.SaveChangesAsync();
             }
-
             if (!await context.Events.AnyAsync())
             {
                 var location = await context.Locations.FirstOrDefaultAsync(l => l.Name == "Baki Konfrans Merkezi");
                 var eventType = await context.EventTypes.FirstOrDefaultAsync(et => et.Name == "Bootcamp");
                 var organizer = await context.Organizers.FirstOrDefaultAsync(o => o.FullName == "Code Academy");
-
                 if (location != null && eventType != null && organizer != null)
                 {
                     context.Events.AddRange(
@@ -119,12 +108,10 @@ namespace CodeAcademyEventManagementSystem.Data
                     await context.SaveChangesAsync();
                 }
             }
-
             if (!await context.Invitations.AnyAsync())
             {
                 var @event = await context.Events.FirstOrDefaultAsync(e => e.Title == "C# Bootcamp");
                 var personAli = await context.Persons.FirstOrDefaultAsync(p => p.Email == "ali@mail.com");
-
                 if (@event != null && personAli != null)
                 {
                     context.Invitations.AddRange(
@@ -141,7 +128,6 @@ namespace CodeAcademyEventManagementSystem.Data
                     await context.SaveChangesAsync();
                 }
             }
-
             if (!await context.Participations.AnyAsync())
             {
                 var invitation = await context.Invitations
@@ -165,11 +151,9 @@ namespace CodeAcademyEventManagementSystem.Data
                     await context.SaveChangesAsync();
                 }
             }
-
             if (!await context.Notifications.AnyAsync())
             {
                 var @event = await context.Events.FirstOrDefaultAsync(e => e.Title == "C# Bootcamp");
-
                 if (@event != null)
                 {
                     context.Notifications.AddRange(
@@ -186,12 +170,10 @@ namespace CodeAcademyEventManagementSystem.Data
                     await context.SaveChangesAsync();
                 }
             }
-
             if (!await context.Feedbacks.AnyAsync())
             {
                 var @event = await context.Events.FirstOrDefaultAsync(e => e.Title == "C# Bootcamp");
                 var personAli = await context.Persons.FirstOrDefaultAsync(p => p.Email == "ali@mail.com");
-
                 if (@event != null && personAli != null)
                 {
                     context.Feedbacks.AddRange(

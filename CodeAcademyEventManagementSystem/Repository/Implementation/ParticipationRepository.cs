@@ -8,11 +8,7 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
     public class ParticipationRepository:GenericRepository<Participation>, IParticipationRepository
     {
         private readonly EventSystemDB _context;
-        public ParticipationRepository(EventSystemDB context) : base(context)
-        {
-            _context = context;
-        }
-
+        public ParticipationRepository(EventSystemDB context) : base(context) => _context = context;
         public async Task<Participation> GetParticipationByInvitationIdAsync(int invitationId)
         {
             return await _context.Participations
@@ -20,7 +16,6 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
                 .AsNoTracking()
                 .FirstOrDefaultAsync(p => p.InvitationId == invitationId && !p.IsDeleted);
         }
-
         public async Task<IEnumerable<Participation>> GetParticipationsWithInvitationDetailsAsync()
         {
             return await _context.Participations

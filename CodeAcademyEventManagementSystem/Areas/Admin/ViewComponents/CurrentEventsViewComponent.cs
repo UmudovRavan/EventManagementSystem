@@ -7,25 +7,17 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.ViewComponents
     public class CurrentEventsViewComponent : ViewComponent
     {
         private readonly IEventService _eventService;
-
-        public CurrentEventsViewComponent(IEventService eventService)
-        {
-            _eventService = eventService;
-        }
-
+        public CurrentEventsViewComponent(IEventService eventService)=> _eventService = eventService;
         public async Task<IViewComponentResult> InvokeAsync()
         {
             var events = await _eventService.GetCurrentEventsAsync();
-
             var currentEvents = events
                 .Select(e => new CurrentEventVM
                 {
                     Id = e.Id,
                     Title = e.Title,
                     Date = e.Date
-                })
-                .ToList();
-
+                }).ToList();
             return View(currentEvents);
         }
     }
