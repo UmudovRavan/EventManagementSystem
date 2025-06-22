@@ -47,7 +47,7 @@ namespace CodeAcademyEventManagementSystem
                 var services = scope.ServiceProvider;
                 try
                 {
-                    await SeedData.Initialize(services); // await ilə çağırılır
+                    await SeedData.Initialize(services); 
                 }
                 catch (Exception ex)
                 {

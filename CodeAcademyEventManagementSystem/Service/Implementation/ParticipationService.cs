@@ -9,7 +9,7 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
     public class ParticipationService : GenericService<ParticipationVM, Participation>, IParticipationService
     {
         private readonly IParticipationRepository _participationRepository;
-        private readonly IInvitationRepository _invitationRepository; // Invitation detayını almak için
+        private readonly IInvitationRepository _invitationRepository;
         private readonly IMapper _mapper;
 
         public ParticipationService(
@@ -28,12 +28,6 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             var allInvitationsWithDetails = await _invitationRepository.GetInvitationsWithEventAndPersonAsync();
             var invitation = allInvitationsWithDetails.FirstOrDefault(i => i.Id == invitationId);
 
-            //if (invitation == null || invitation.Status != InvitationStatus.Accepted.ToString()) // String karşılaştırma
-            //{
-            //    throw new InvalidOperationException("Davet bulunamadı veya kabul edilmediği için check-in yapılamaz.");
-            //}
-
-            // Eğer bu davetiye için zaten bir katılım varsa, hata fırlatabilir veya mevcut katılımı döndürebilirsiniz.
             var existingParticipation = await _participationRepository.GetParticipationByInvitationIdAsync(invitationId);
             if (existingParticipation != null)
             {
@@ -51,10 +45,9 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             return _mapper.Map<ParticipationVM>(result);
         }
 
-        private string GenerateSeatNumber() // SeatNumber string olduğu için
+        private string GenerateSeatNumber() 
         {
-            // Daha karmaşık bir oturma numarası atama mantığı burada geliştirilebilir.
-            // Örnek: "A" + Random(1-100)
+           
             return "A" + new Random().Next(1, 100).ToString();
         }
 

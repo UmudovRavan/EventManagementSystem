@@ -10,6 +10,6 @@ namespace CodeAcademyEventManagementSystem.Repository.Interface
         Task<TEntity> UpdateAsync(TEntity entity);
         Task<bool> DeleteAsync(int id);
 
-        Task<int> SaveChangesAsync(); // SaveChanges buraya əlavə olunur
+        Task SaveChangesAsync(); 
     }
 }

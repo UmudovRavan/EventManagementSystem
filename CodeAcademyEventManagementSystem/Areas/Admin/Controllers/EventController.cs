@@ -53,7 +53,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
             var allUsers = await _personService.GetAllAsync() ?? Enumerable.Empty<PersonVM>();
             var usersToInvite = allUsers.Where(u => !invitedPersonIds.Contains(u.Id));
 
-            // Təhlükəsiz SelectList yaratmaq üçün
             var userSelectList = usersToInvite.Select(u => new
             {
                 Id = u.Id,
@@ -106,7 +105,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            // Əgər validation uğursuzdursa, dropdown-ları yenidən doldur
             await PopulateDropdowns();
             return View(eventVM);
         }
@@ -119,7 +117,6 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 return NotFound();
             }
 
-            // EventEditVM yaradılır və doldurulur
             var model = new EventEditVM
             {
                 Id = eventToEdit.Id,
@@ -131,7 +128,7 @@ namespace CodeAcademyEventManagementSystem.Areas.Admin.Controllers
                 OrganizerId = eventToEdit.OrganizerId
             };
 
-            await PopulateDropdowns(); // dropdownları model-ə əlavə edir
+            await PopulateDropdowns(); 
 
             return View(model);
         }

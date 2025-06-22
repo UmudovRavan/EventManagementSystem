@@ -49,7 +49,7 @@ namespace CodeAcademyEventManagementSystem.Data
                             Surname = "Admini",
                             Email = adminEmail,
                             Phone = "000-000-0000",
-                            Role = "Admin", // Bu, Person modelinizdəki biznes roludur
+                            Role = "Admin", 
                             CreatedAt = DateTime.Now,
                             UpdatedAt = DateTime.Now,
                             IsDeleted = false

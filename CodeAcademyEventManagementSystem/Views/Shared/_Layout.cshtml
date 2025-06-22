@@ -22,7 +22,42 @@
         <main class="main-content">
 
             <!-- Əlavə Content Sahəsi -->
+            <div class="welcome-screen d-flex align-items-center justify-content-center">
+                <div class="text-center">
+                    <h1 class="display-3 fw-bold text-white mb-4">Welcome to <span class="brand-gradient">CodeAcademyEvent</span></h1>
+                    <p class="lead text-light mb-5">
+                        A platform to manage and experience educational events with style and efficiency.<br />
+                        Discover seminars, bootcamps, masterclasses and more!
+                    </p>
+                    
+                </div>
+            </div>
 
+
+
+            <!-- Feedback Section -->
+            <section id="feedback" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-comment-dots me-2"></i>Feedback</h2>
+                    <span class="badge badge-warning">Pending</span>
+                </div>
+                <div class="welcome-card">
+                    <h3>Event Feedback</h3>
+                    <p>Share your feedback and view responses from events you've attended.</p>
+                </div>
+            </section>
+
+            <!-- Check Section -->
+            <section id="check" class="content-section">
+                <div class="section-header">
+                    <h2><i class="fas fa-check-circle me-2"></i>Check</h2>
+                    <span class="badge badge-info">Status</span>
+                </div>
+                <div class="welcome-card">
+                    <h3>Status Check</h3>
+                    <p>Check your registration status and event confirmations.</p>
+                </div>
+            </section>
             <!-- Ana Məzmun -->
             @RenderBody()
 
@@ -30,5 +65,32 @@
     </div>
 
     <script src="~/user/js/script.js"></script>
+    @section Styles {
+        <style>
+            .welcome-screen {
+                height: 85vh;
+                background: linear-gradient(135deg, #6a11cb, #2575fc);
+                padding: 0 20px;
+                text-align: center;
+                border-radius: 20px;
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+                overflow: hidden;
+            }
+
+            .brand-gradient {
+                background: linear-gradient(to right, #f7971e, #ffd200);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .btn {
+                transition: all 0.3s ease-in-out;
+            }
+
+                .btn:hover {
+                    transform: scale(1.05);
+                }
+        </style>
+    }
 </body>
 </html>

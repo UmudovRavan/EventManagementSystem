@@ -40,7 +40,7 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
 
         public async Task<TEntity> GetByIdAsync(int id)
         {
-            var entity = await _dbSet.AsNoTracking().FirstOrDefaultAsync(e => e.Id == id && !e.IsDeleted);
+            var entity = await _dbSet.FirstOrDefaultAsync(e => e.Id == id && !e.IsDeleted);
             return entity;
         }
 
@@ -51,9 +51,9 @@ namespace CodeAcademyEventManagementSystem.Repository.Implementation
             return entity;
         }
 
-        public async Task<int> SaveChangesAsync()
+        public async Task SaveChangesAsync()
         {
-            return await _context.SaveChangesAsync();
+             await _context.SaveChangesAsync();
         }
     }
 }

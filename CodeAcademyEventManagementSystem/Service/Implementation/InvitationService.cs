@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using CodeAcademyEventManagementSystem.Data;
 using CodeAcademyEventManagementSystem.Entities;
 using CodeAcademyEventManagementSystem.Enums;
 using CodeAcademyEventManagementSystem.Repository.Interface;
@@ -12,12 +13,14 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
     {
         private readonly IInvitationRepository _invitationRepository;
         private readonly IMapper _mapper;
+        private readonly EventSystemDB _context;
 
-        public InvitationService(IInvitationRepository invitationRepository, IMapper mapper)
+        public InvitationService(IInvitationRepository invitationRepository, IMapper mapper, EventSystemDB context)
             : base(invitationRepository, mapper)
         {
             _invitationRepository = invitationRepository;
             _mapper = mapper;
+            _context = context;
         }
 
         public async Task<InvitationVM> CreateInvitationAsync(InvitationCreateVM model)
@@ -37,12 +40,9 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
             if (invitation == null)
                 return false;
 
-            invitation.Status = status;
+            invitation.Status =InvitationStatus.Accepted;
 
-            // Əgər repository səviyyəsində Update metodu varsa, onu çağıra bilərsən:
-            // _invitationRepository.Update(invitation);
-
-            await _invitationRepository.SaveChangesAsync(); // Bu sətir mütləq olmalıdır
+            await _context.SaveChangesAsync(); 
 
             return true;
         }
@@ -69,7 +69,6 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
 
             if (invitation == null) return null;
 
-            // AsNoTracking lazımdırsa, burda əlavə metod əlavə etmək olar repository-də
 
             return _mapper.Map<InvitationVM>(invitation);
         }

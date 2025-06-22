@@ -47,7 +47,7 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
         {
             var entity = _mapper.Map<Event>(model);
             var updatedEntity = await _eventRepository.UpdateAsync(entity);
-            await _eventRepository.SaveChangesAsync(); // Benzer şekilde
+            await _eventRepository.SaveChangesAsync(); 
             return _mapper.Map<EventVM>(updatedEntity);
         }
         public async Task<List<Event>> GetCurrentEventsAsync()

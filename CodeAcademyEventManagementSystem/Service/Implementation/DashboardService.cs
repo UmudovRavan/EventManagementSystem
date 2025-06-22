@@ -37,10 +37,10 @@ namespace CodeAcademyEventManagementSystem.Service.Implementation
                 Id = e.Id,
                 Title = e.Title,
                 Description = e.Description,
-                Date = e.Date, // Tarix property-nə uyğun dəyiş
+                Date = e.Date, 
                 LocationName = e.Location.Name,
                 EventTypeName = e.EventType.Name,
-                OrganizerName = e.Organizer.FullName, // Əgər yoxdursa, sadəcə e.Organizer.Name və ya FirstName + LastName
+                OrganizerName = e.Organizer.FullName, 
                 Status = e.IsActive ? "Active" : "Pending",
                 StatusColor = e.IsActive ? "success" : "warning"              
             }).ToList();

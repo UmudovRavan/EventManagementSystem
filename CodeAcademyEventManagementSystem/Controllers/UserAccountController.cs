@@ -130,7 +130,6 @@ namespace CodeAcademyEventManagementSystem.Controllers
                 var result = await _signInManager.PasswordSignInAsync(model.Username, model.Password, model.RememberMe, lockoutOnFailure: false);
                 if (result.Succeeded)
                 {
-                    // Həmişə Home/Index-ə yönləndirir
                     return RedirectToAction("Index", "Home");
                 }
                 ModelState.AddModelError(string.Empty, "İstifadəçi adı və ya şifrə yanlışdır.");
